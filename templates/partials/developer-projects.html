@@ -1,0 +1,33 @@
+<div id="developerProjects" class="wrapper">
+	<h1>Memoirs of a Developer</h1>
+	<h3>MY PROJECTS</h3>
+
+	<div class="projectWraper">
+		<a class="projectBox" href="#" ng-click="projectService.setProject(1)">
+		</a>
+
+		<a class="projectBox" href="#" ng-click="projectService.setProject(2)">
+		</a>
+
+		<a class="projectBox" href="#" ng-click="projectService.setProject(3)">
+		</a>
+
+		<a class="projectBox" href="#" ng-click="projectService.setProject(4)">
+		</a>
+
+		<a class="projectBox" href="#" ng-click="projectService.setProject(5)">
+		</a>
+
+		<a class="projectBox" href="#" ng-click="projectService.setProject(6)">
+		</a>
+	</div>
+
+	<div id="projectDescription">
+		<developer-weather-swatch ng-show="projectService.isSet(1)"></developer-weather-swatch>
+		<developer-eight-ball ng-show="projectService.isSet(2)"></developer-eight-ball>
+		<developer-sunrise-alarm ng-show="projectService.isSet(3)"></developer-sunrise-alarm>
+		<developer-xoxo ng-show="projectService.isSet(4)"></developer-xoxo>
+		<developer-metrocity ng-show="projectService.isSet(5)"></developer-metrocity>
+		<developer-zone-six ng-show="projectService.isSet(6)"></developer-zone-six>
+	</div>
+</div>

@@ -2,17 +2,22 @@
 //CONTROLLER DEFINTIIONS SHOULD BE MINIMAL SPECIFYING WHICH CONTROLLER USES WHICH SERVICE, ETC.
 
 define(["controllersFactory", 
+	'directives/directives',
 	'services/tabService', 
-	'directives/directives'], 
+	'services/projectService'], 
 	function(controllersFactory) {
 
 	controllersFactory.controller('DeveloperCtrl', 
 		['$scope', 
 		'TabService',
+		'ProjectService',
+
 		function($scope, 
-			tabService) {
+			tabService,
+			projectService) {
 
 			$scope.tabService = tabService;
+			$scope.projectService = projectService;
 	}]);
 
 });
