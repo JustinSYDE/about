@@ -222,6 +222,44 @@ footer, header, hgroup, menu, nav, section {
 #zoneSix{
 	background-image: url(images/projects/zoneSix.png);
 }
+
+#weatherSwatch:hover{
+	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+}
+
+#eightBall:hover{
+	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+}
+
+#sunriseAlarm:hover{
+	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+}
+
+#xoxo:hover{
+	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+}
+
+#metrocity:hover{
+	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+}
+
+#zoneSix:hover{
+	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+}
+
+
 /*------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------*/
 
 @media (max-width: 1015px) {
