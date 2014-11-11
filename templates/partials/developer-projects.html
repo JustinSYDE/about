@@ -2,24 +2,30 @@
 	<h1>Memoirs of a Developer</h1>
 	<h3>MY PROJECTS</h3>
 
-	<div class="projectWraper">
-		<a class="projectBox" href="#" ng-click="projectService.setProject(1)">
-		</a>
+	<div class="projectWrapper">
+		<!--div class="boxtest" style="width: 50px; height: 50px; background-color: black"></div-->
+		<div id="weatherSwatch" class="projectBox" href="#" ng-click="projectService.setProject(1)" ng-mouseOver="projectService.setHoveredProject(1)" ng-mouseLeave="projectService.setHoveredProject(-2)">
+		</div>
 
-		<a class="projectBox" href="#" ng-click="projectService.setProject(2)">
-		</a>
+		<div id="eightBall" class="projectBox" href="#" ng-click="projectService.setProject(2)">
+			<h3 ng-show="projectService.isHovered(2)">8 Ball</h3>
+		</div>
 
-		<a class="projectBox" href="#" ng-click="projectService.setProject(3)">
-		</a>
+		<div id="sunriseAlarm" class="projectBox" href="#" ng-click="projectService.setProject(3)">
+			<h3 ng-show="projectService.isHovered(3)">Sunrise Alarm</h3>
+		</div>
 
-		<a class="projectBox" href="#" ng-click="projectService.setProject(4)">
-		</a>
+		<div id="xoxo" class="projectBox" href="#" ng-click="projectService.setProject(4)">
+			<h3 ng-show="projectService.isHovered(4)">XOXO</h3>
+		</div>
 
-		<a class="projectBox" href="#" ng-click="projectService.setProject(5)">
-		</a>
+		<div id="metrocity" class="projectBox" href="#" ng-click="projectService.setProject(5)">
+			<h3 ng-show="projectService.isHovered(5)">Metrocity</h3>
+		</div>
 
-		<a class="projectBox" href="#" ng-click="projectService.setProject(6)">
-		</a>
+		<div id="zoneSix" class="projectBox" href="#" ng-click="projectService.setProject(6)">
+			<h3 ng-show="projectService.isHovered(6)">Zone Six Design Build Ltd</h3>
+		</div>
 	</div>
 
 	<div id="projectDescription">

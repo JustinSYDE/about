@@ -1,3 +1,4 @@
+
 #developerBanner{
 	height: 100%;
 	width: 100%;
@@ -21,20 +22,20 @@
 h1{
 	font-size: 150px;
 	text-transform: uppercase;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', Arial;
 	text-align: center;
 }
 
 #iAmText p{
 	font-size: 16px;
 	text-align: right;
-	font-family: 'Lato';
+	font-family: 'Lato', Arial;
 	text-transform: uppercase;
 }
 
 h3{
 	text-align: center;
-	font-family: 'Lato';
+	font-family: 'Lato', Arial;
 	text-transform: uppercase;
 }
 
@@ -179,15 +180,48 @@ footer, header, hgroup, menu, nav, section {
 
 /*------------------------------------------------------------------- PORJECTS --------------------------------------------------------------------*/
 
-.projectBox{
-	width: 33.33%;
-	height: 350px;
-	float: left;
-	margin: 0;
-	background-color: gray;
-	border: 1px dashed black;
+.projectWrapper{
+	width: 100%;
+	height: auto;
+	padding: 0 17%;
 }
 
+.projectBox{
+	width: 320px;
+	height: 300px;
+	display: inline-block;
+	margin: 0;
+	/*background-color: rgba(176, 218, 212, 0.48);*/
+	background-repeat: no-repeat;
+}
+
+.projectBox h3{
+	padding-top: 40%;
+}
+
+#weatherSwatch{
+	background-image: url(images/projects/weatherSwatch.png);
+}
+
+#eightBall{
+	background-image: url(images/projects/8Ball.png);
+}
+
+#sunriseAlarm{
+	background-image: url(images/projects/sunriseAlarm.png);
+}
+
+#xoxo{
+	background-image: url(images/projects/xoxo.png);
+}
+
+#metrocity{
+	background-image: url(images/projects/metrocity.png);
+}
+
+#zoneSix{
+	background-image: url(images/projects/zoneSix.png);
+}
 /*------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------*/
 
 @media (max-width: 1015px) {
