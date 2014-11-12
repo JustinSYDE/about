@@ -8,6 +8,7 @@
 
 #developerSkills{
 	padding: 0;
+	background-image: url(images/backgrounds/white_wall_hash.png);
 }
 
 #iAmText{
@@ -20,6 +21,7 @@
 }
 
 h1{
+	padding-top: 10px;
 	font-size: 150px;
 	text-transform: uppercase;
 	font-family: 'Amatic SC', Arial;
@@ -180,6 +182,10 @@ footer, header, hgroup, menu, nav, section {
 
 /*------------------------------------------------------------------- PROJECTS --------------------------------------------------------------------*/
 
+#developerProjects{
+
+}
+
 .projectWrapper{
 	width: 100%;
 	height: auto;
@@ -325,6 +331,10 @@ footer, header, hgroup, menu, nav, section {
 
 
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
+
+#developerContact{
+	background-image: url(images/backgrounds/old_moon.png);
+}
 
 #map_canvas {
   width: 100%;
