@@ -15,7 +15,8 @@
 			'angularRoute': 'libs/angular-route-1.2.24',
 			'bootstrap': 'libs/modernizr-2.6.2-respond-1.1.0.min',
 			'jquery': 'libs/jquery-1.11.0.min',
-			'bootstrapJS': 'libs/bootstrap'
+			'bootstrapJS': 'libs/bootstrap',
+			'async': 'libs/async'
 		},
 		shim: {
 			'angular': {
@@ -46,21 +47,36 @@
 		return angular.module('app.directives', []);
 	});
 
+	//use plugins as if they were at baseUrl
+	define('gmaps', ['async!http://maps.google.com/maps/api/js?sensor=false'], function(){
+	        //all dependencies are loaded (including gmaps and other google apis)
+		return window.google.maps; 
+	});
+
 	//DEFINE THE MOTHER 'APP' MODULE WHICH REQUIRES ALL THE OTHER MAIN MODULES TO BE INITIALIZED WITH IT
 	define('app', [
 		'angular',
 		'angularRoute',
+		'directivesFactory',
 		'servicesFactory',
 		'controllersFactory',
-		'directivesFactory'
 		],
 		function(angular) {
-			return angular.module('app', ['app.services', 'app.controllers', 'app.directives', 'ngRoute']);
+			return angular.module('app', ['app.directives', 'app.services', 'app.controllers', 'ngRoute']);
 		}
 	);
 
 	//BOOTSTRAP ANGULARJS TO THE MOTHER 'APP'
-	require(['app', 'jquery', 'bootstrap', 'bootstrapJS'], function(app, jquery, bootstrap, bootstrapJS) {
+	require(['app', 
+		'jquery', 
+		'bootstrap', 
+		'bootstrapJS',
+		'gmaps'], 
+		function(app, 
+			jquery, 
+			bootstrap, 
+			bootstrapJS,
+			gmaps) {
 		require([
 				'controllers/developerCtrl'
 			],

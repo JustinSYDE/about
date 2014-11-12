@@ -23,6 +23,10 @@ html, body, #ng-view {
 	font-family: 'Lato', Arial;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 .nav{
 	height: 48px
 }
