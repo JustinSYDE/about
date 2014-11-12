@@ -200,7 +200,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .projectDescription{
-	padding: 0 15%;
+	padding: 30px 25%;
+	background-color: rgba(176, 218, 212, 0.48);
 }
 
 .projectDescription p{
@@ -239,7 +240,7 @@ footer, header, hgroup, menu, nav, section {
 	height: 90px;
 	margin: auto;
 	margin-top: 30px;
-	padding: 9px 25px;
+	padding: 8px 25px;
 	color: #cccccc;
 	font-size: 50px;
 	border-radius: 50px;

@@ -30,6 +30,13 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerProjectDescriptions', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/partials/developer-project-descriptions.html"
+		};
+	});
+
 	directivesFactory.directive('developerWeatherSwatch', function(){  
 		return{
 			restrict: 'E',
