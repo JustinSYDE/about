@@ -2,7 +2,7 @@
 #developerBanner{
 	height: 100%;
 	width: 100%;
-	background: url(images/iMac.jpg);
+	background: url(images/backgrounds/banner.JPG);
 	padding-top: 10%;
 }
 
@@ -222,8 +222,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 	width: 90px;
 	height: 90px;
-	margin: auto;
-	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 25px 12px;
 	color: white;
 	font-size: 24px;
@@ -234,10 +234,12 @@ footer, header, hgroup, menu, nav, section {
 .projectButton:hover{
 	background-color: #428bca;
 	color: white;
-	font-size: 15px;
+	font-size: 13px;
 	width: 80px;
 	height: 80px;
+	margin-top: 5px;
 	padding: 27px 18px;
+	border: 4px solid #f2f2f2;
 }
 
 .closeProjectButton{
@@ -245,7 +247,8 @@ footer, header, hgroup, menu, nav, section {
 	width: 90px;
 	height: 90px;
 	margin: auto;
-	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 8px 25px;
 	color: #cccccc;
 	font-size: 50px;
@@ -261,12 +264,15 @@ footer, header, hgroup, menu, nav, section {
 	font-size: 40px;
 	width: 80px;
 	height: 80px;
+	margin-top: 5px;
 	padding: 8px 24px;
 }
 
 .buttonRow{
+	margin-top: 30px;
 	width: 100%;
 	height: 100px;
+	padding-top: 5px;
 }
 
 #weatherSwatch{
@@ -344,6 +350,33 @@ footer, header, hgroup, menu, nav, section {
   max-width:100%;
  }
 
+.socialMediaRow{
+	width: 358px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.socialBox{
+	display: inline-block;
+}
+
+.socialButton{
+	width: 100px;
+	height: 100px;
+}
+
+.socialButton img:hover{
+	width: 80px;
+	height: 80px;
+	margin: 5px;
+	border: 4px solid #f2f2f2;
+	border-radius: 50px;
+}
+
+.socialMediaRow img{
+	height: 90px;
+	width: 90px;
+}
 
 /*------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------*/
 
