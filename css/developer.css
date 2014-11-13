@@ -3,21 +3,30 @@
 	height: 100%;
 	width: 100%;
 	background: url(images/backgrounds/banner.JPG);
+	background-repeat: no-repeat;
 	padding-top: 10%;
 }
 
 #developerSkills{
-	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
 	background-image: url(images/backgrounds/white_wall_hash.png);
 }
 
 #iAmText{
 	margin-left: 50%;
-	background-color: #fef8e7;
-	opacity: 0.8;
-	-webkit-box-shadow: 18px 10px 200px 120px #fef8e7;
-	-moz-box-shadow: 18px 10px 200px 120px #fef8e7;
-	box-shadow: 18px 10px 200px 120px #fef8e7;
+	width: auto;
+	color: black;
+	background-color: #e3cca3;
+	opacity: 0.6;
+	text-align: right;
+	-webkit-box-shadow: 18px 10px 200px 120px #e3cca3;
+	-moz-box-shadow: 18px 10px 200px 120px #e3cca3;
+	box-shadow: 18px 10px 200px 120px #e3cca3;
+}
+
+#iAmText h1{
+	text-align: right;
 }
 
 h1{
@@ -85,7 +94,6 @@ footer, header, hgroup, menu, nav, section {
 	padding-bottom: 70px;
 	position: relative;
 	margin: 0 auto;
-	margin-bottom: 2.5em;
 
 	-webkit-transition: all ease 500ms;
 	-moz-transition: all ease 500ms;
@@ -187,9 +195,10 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .projectWrapper{
-	width: 100%;
+	width: 970px;
 	height: auto;
-	padding: 0 17%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .projectBox{
@@ -275,30 +284,6 @@ footer, header, hgroup, menu, nav, section {
 	padding-top: 5px;
 }
 
-#weatherSwatch{
-	background-image: url(images/projects/weatherSwatch.png);
-}
-
-#eightBall{
-	background-image: url(images/projects/8Ball.png);
-}
-
-#sunriseAlarm{
-	background-image: url(images/projects/sunriseAlarm.png);
-}
-
-#xoxo{
-	background-image: url(images/projects/xoxo.png);
-}
-
-#metrocity{
-	background-image: url(images/projects/metrocity.png);
-}
-
-#zoneSix{
-	background-image: url(images/projects/zoneSix.png);
-}
-
 #weatherSwatch:hover{
 	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
@@ -378,7 +363,37 @@ footer, header, hgroup, menu, nav, section {
 	width: 90px;
 }
 
+.aboutTheSite{
+	text-align: center;
+}
 /*------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------*/
+
+@media (max-width: 1400px){
+	#developerBanner{
+		background-image: url(images/backgrounds/bannerMid.png);
+	}
+
+	#iAmText{
+		margin-top: 70px;
+	}
+}
+
+@media (max-width: 1080px){
+	.projectWrapper{
+		width: 700px;
+	}
+
+	.projectBox{
+		width: 230px;
+		height: 216px;
+	}
+
+	.projectBox img{
+		width: 230px;
+		height: 216px;
+	}
+}
+
 
 @media (max-width: 1015px) {
 	#lab {
@@ -408,7 +423,33 @@ footer, header, hgroup, menu, nav, section {
 
 }
 
+@media (max-width: 790px){
+	#iAmText h1{
+		font-size: 120px;
+	}
+
+	#iAmText{
+		margin-top: 80px;
+	}
+
+	.navbar{
+		padding: 0;
+	}
+
+	#iAmText{
+		height: auto;
+	}
+}
+
 @media (max-width: 640px) {
+	#iAmText h1{
+		font-size: 80px;
+	}
+
+	#iAmText{
+		margin-top: 100px;
+	}
+
 	#lab article {
 		width: 405px;
 	}
@@ -441,5 +482,13 @@ footer, header, hgroup, menu, nav, section {
 
 	.lab_item:nth-child(n+2) {
 		margin-top: -56px;
+	}
+
+	#iAmText h1{
+		font-size: 60px;
+	}
+
+	#iAmText{
+		margin-top: 80px;
 	}
 }

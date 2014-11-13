@@ -9,12 +9,14 @@ html, body, #ng-view {
 	margin: 0;
 }
 
-.wrapper, .navbar{
-	padding: 0 10%;
+.wrapper{
+	padding: 50px 10%;
 	height: auto;
 }
 
 .navbar{
+	padding: 0 10%;
+	height: auto;
 	margin: 0;
 	position: fixed;
 	background-color: #191919;
@@ -38,7 +40,7 @@ h1{
 .nav-pills>li>a {
   border-radius: 0;
   padding: 15px 15px;
-  height: 50px;
+  height: 49px;
 }
 
 .navbar-collapse{
