@@ -502,8 +502,12 @@ footer, header, hgroup, menu, nav, section {
 @media (max-width: 450px) {
 
 	h1{
-
 		font-size: 70px;
+	}
+
+	.projectDescription{
+		padding-left: 15%;
+		padding-right: 15%;
 	}
 
 	#lab article {
@@ -569,6 +573,26 @@ footer, header, hgroup, menu, nav, section {
 	.socialMediaRow img{
 		height: 70px;
 		width: 70px;
+	}
+
+	.closeProjectButton{
+		font-size: 60px;
+		padding: 0px 21px;
+	}
+
+	.closeProjectButton:hover{
+		font-size: 58px;
+		padding: 0px 23px;
+	}
+
+	.projectButton{
+		font-size: 23px;
+		padding: 25px 12px;
+	}
+
+	.projectButton:hover{
+		font-size: 21px;
+		padding: 23px 12px;
 	}
 
 }
