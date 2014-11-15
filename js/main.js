@@ -78,12 +78,16 @@
 			bootstrapJS,
 			gmaps) {
 		require([
-				'controllers/developerCtrl'
+				'controllers/developerCtrl',
+				'controllers/bboyCtrl'
 			],
 			function() {
 				app.config(['$routeProvider', function($routeProvider) {
-					$routeProvider.
-						when('/', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
+					$routeProvider
+						.when('/', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
+						otherwise({redirectTo: '/'})
+
+						.when('/bboy', {templateUrl: 'templates/bboy.html', controller: "BboyCtrl"}).
 						otherwise({redirectTo: '/'});
 				}]);
 

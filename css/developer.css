@@ -1,10 +1,6 @@
 
 #developerBanner{
-	height: 100%;
-	width: 100%;
 	background: url(images/backgrounds/banner.JPG);
-	background-repeat: no-repeat;
-	padding-top: 10%;
 }
 
 #developerSkills{

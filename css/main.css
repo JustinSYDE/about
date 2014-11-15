@@ -48,6 +48,13 @@ h1{
 	margin-left: 40%;
 }
 
+.banner{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+}
+
 footer{
   padding: 15px 0 15px 0;
   text-align: center;
