@@ -55,16 +55,46 @@ h1{
 	padding-top: 10%;
 }
 
+.iAmText{
+	margin-left: 50%;
+	width: auto;
+	text-align: right;
+}
+
+.iAmText h1{
+	text-align: right;
+}
+
+h1{
+	padding-top: 10px;
+	font-size: 150px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.iAmText p{
+	font-size: 16px;
+	text-align: right;
+	font-family: 'Lato', Arial;
+	text-transform: uppercase;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Lato', Arial;
+	text-transform: uppercase;
+}
+
 footer{
   padding: 15px 0 15px 0;
   text-align: center;
-  background: url(img/backgrounds/footer_lodyas.png);
+  background: url(images/backgrounds/footer_lodyas.png);
 }
 
 footer p{
+  color: #7f8c97;
   text-align: center;
   font-style: italic;
   padding: 0 0 5px 0;
   margin: 0;
 }
-

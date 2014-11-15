@@ -1,4 +1,8 @@
 
+developer-banner h1, developer-contact h1, developer-project-descriptions h1, developer-projects h1, developer-skills h1{
+	font-family: 'Amatic SC', Arial;
+}
+
 #developerBanner{
 	background: url(images/backgrounds/banner.JPG);
 }
@@ -9,56 +13,15 @@
 	background-image: url(images/backgrounds/white_wall_hash.png);
 }
 
-#iAmText{
-	margin-left: 50%;
-	width: auto;
+#iAmDeveloper{
 	color: black;
 	background-color: #e3cca3;
 	opacity: 0.6;
-	text-align: right;
 	-webkit-box-shadow: 18px 10px 200px 120px #e3cca3;
 	-moz-box-shadow: 18px 10px 200px 120px #e3cca3;
 	box-shadow: 18px 10px 200px 120px #e3cca3;
 }
 
-#iAmText h1{
-	text-align: right;
-}
-
-h1{
-	padding-top: 10px;
-	font-size: 150px;
-	text-transform: uppercase;
-	font-family: 'Amatic SC', Arial;
-	text-align: center;
-}
-
-#iAmText p{
-	font-size: 16px;
-	text-align: right;
-	font-family: 'Lato', Arial;
-	text-transform: uppercase;
-}
-
-h3{
-	text-align: center;
-	font-family: 'Lato', Arial;
-	text-transform: uppercase;
-}
-
-footer{
-  padding: 15px 0 15px 0;
-  text-align: center;
-  background: url(images/backgrounds/footer_lodyas.png);
-}
-
-footer p{
-  color: #7f8c97;
-  text-align: center;
-  font-style: italic;
-  padding: 0 0 5px 0;
-  margin: 0;
-}
 
 /*--------------------------------------------------------------- SKILLS -----------------------------------------------------------*/
 
