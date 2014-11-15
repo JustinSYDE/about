@@ -333,7 +333,7 @@ footer, header, hgroup, menu, nav, section {
 		background-image: url(images/backgrounds/bannerMid.png);
 	}
 
-	#iAmText{
+	#iAmDeveloper{
 		margin-top: 70px;
 	}
 }
@@ -388,31 +388,12 @@ footer, header, hgroup, menu, nav, section {
 		width: 500px;
 	}
 
-	#iAmText h1{
-		font-size: 120px;
-	}
-
-	#iAmText{
-		margin-top: 80px;
-	}
-
 	.navbar{
 		padding: 0;
-	}
-
-	#iAmText{
-		height: auto;
 	}
 }
 
 @media (max-width: 640px) {
-	#iAmText h1{
-		font-size: 80px;
-	}
-
-	#iAmText{
-		margin-top: 100px;
-	}
 
 	#lab article {
 		width: 405px;
@@ -459,11 +440,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 @media (max-width: 450px) {
-
-	h1{
-		font-size: 70px;
-	}
-
 	.projectDescription{
 		padding-left: 15%;
 		padding-right: 15%;
@@ -483,14 +459,6 @@ footer, header, hgroup, menu, nav, section {
 
 	.lab_item:nth-child(n+2) {
 		margin-top: -56px;
-	}
-
-	#iAmText h1{
-		font-size: 60px;
-	}
-
-	#iAmText{
-		margin-top: 80px;
 	}
 }
 

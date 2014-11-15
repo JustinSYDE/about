@@ -1,3 +1,8 @@
+
+#bboyBanner h1{
+	font-family: "Rockwell";
+}
+
 #bboyBanner{
 	background-image: url(images/backgrounds/snake.jpg);
 	background-size: 1850px 120%;
