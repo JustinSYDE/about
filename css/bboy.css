@@ -1,5 +1,11 @@
 
+#bboyStory h1, #bboyCrew h1, #bboyJourney h1, #bboyContact h1{
+	font-family: "Rockwell";
+	font-size: 100px;
+}
+
 #bboyBanner h1{
+	font-size: 120px;
 	font-family: "Rockwell";
 }
 
@@ -7,4 +13,9 @@
 	background-image: url(images/backgrounds/snake.jpg);
 	background-size: 1850px 120%;
 	color: white;
+}
+
+#blurb{
+	display: inline-block;
+	width: 50%;
 }
