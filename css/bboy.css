@@ -28,7 +28,7 @@
 }
 
 
-/*-------------------------------------- STORY ----------------------------------*/
+/*-------------------------------------- CREW ----------------------------------*/
 
 .memberWrapper{
 	width: 320px;
@@ -61,7 +61,7 @@
 	height: 280px;
 	background-size: 280px 280px;
 	border: 8px solid black;
-
+	margin-top:10px;
 	-webkit-box-shadow: inset 10px 10px 147px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 10px 10px 147px 0px rgba(0,0,0,0.75);
 	box-shadow: inset 10px 10px 147px 0px rgba(0,0,0,0.75);
@@ -105,4 +105,17 @@
 
 #musclez{
 	background-image: url(images/crewMembers/musclez_profile.jpg);
+}
+
+
+/*-------------------------------------- CREW DESCRIPTION ----------------------------------*/
+
+#crewDescription{
+	background-color: #a8a8a8;
+}
+
+/*------------------------------------------ JOURNEY -------------------------------------------*/
+
+#bboyJourney{
+	background: url(images/backgrounds/cartographer.png);
 }

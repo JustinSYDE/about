@@ -23,33 +23,7 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* -------------------------------- 
-
-Main components 
-
--------------------------------- */
-/*header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
-}
-header h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
-}*/
-
-@media only screen and (min-width: 1170px) {
-  /*header {
-    height: 300px;
-    line-height: 300px;
-  }
-  header h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }*/
-}
+/* -------------------------------- MAIN COMPONENTS -------------------------------- */
 
 #cd-timeline {
   position: relative;
@@ -57,6 +31,7 @@ header h1 {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
 #cd-timeline::before {
   /* this is the vertical line */
   content: '';
@@ -227,10 +202,7 @@ header h1 {
 .cd-timeline-content h2 {
   color: #303e49;
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
-}
+
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
@@ -263,26 +235,17 @@ header h1 {
   border: 7px solid transparent;
   border-right: 7px solid white;
 }
-@media only screen and (min-width: 768px) {
-  .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
-  }
-  .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
-  }
-  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
-  }
-}
+
+
+/*--------------------------------------------- MEDIA QUERIES -----------------------------------------*/
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
     width: 45%;
   }
+
   .cd-timeline-content::before {
     top: 24px;
     left: 100%;
@@ -297,9 +260,8 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
   }
+
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
   }
