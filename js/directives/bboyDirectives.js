@@ -106,4 +106,11 @@ define(['directivesFactory'], function(directivesFactory){
 			templateUrl: "templates/bboyPartials/saiko/bgirl-karebear.html"
 		};
 	});
+
+	directivesFactory.directive('bboyCrewDescriptions', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/bboy-crew-descriptions.html"
+		};
+	});
 });

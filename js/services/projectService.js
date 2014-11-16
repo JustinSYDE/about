@@ -11,7 +11,14 @@ define(["servicesFactory"], function(servicesFactory) {
 
 		    setProject: function(setProject) {
 		      projectService.project = setProject;
-		      projectService.scrollTo('#projectDescription');
+
+		      if (document.getElementById("projectDescription") != null){
+		      	projectService.scrollTo('#projectDescription');
+		      }
+		      
+		      else{
+		      	projectService.scrollTo('#crewDescription');
+		      }
 		    },
 
 		    scrollTo: function(section){

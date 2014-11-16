@@ -4,6 +4,7 @@
 define(["controllersFactory", 
 	'directives/bboyDirectives',
 	'services/tabService', 
+	'services/projectService',
 	'services/gmapsService',
 	'services/verticalTimelineService'], 
 	function(controllersFactory) {
@@ -11,15 +12,18 @@ define(["controllersFactory",
 	controllersFactory.controller('BboyCtrl', 
 		['$scope', 
 		'TabService',
+		'ProjectService',
 		'GmapsService',
 		'VerticalTimelineService',
 
 		function($scope, 
 			tabService,
+			projectService,
 			gmapsService,
 			verticalTimelineService) {
 
 			$scope.tabService = tabService;
+			$scope.projectService = projectService;
 			$scope.gmapsService = gmapsService;
 			$scope.verticalTimelineService = verticalTimelineService;
 			$scope.verticalTimelineService.start();
