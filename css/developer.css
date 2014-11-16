@@ -4,7 +4,7 @@ developer-banner h1, developer-contact h1, developer-project-descriptions h1, de
 }
 
 #developerBanner{
-	background: url(images/backgrounds/banner.JPG);
+	background: url(images/backgrounds/banner2.JPG);
 }
 
 #developerSkills{
@@ -252,7 +252,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .buttonRow{
-	margin-top: 30px;
+	padding-top: 30px;
 	width: 100%;
 	height: 100px;
 	padding-top: 5px;
