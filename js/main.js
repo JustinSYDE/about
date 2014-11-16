@@ -30,6 +30,9 @@
 			},
 			'bootstrapJS': {
 				deps: ['jquery']
+			},
+			'verticalTimeline': {
+				deps: ['jquery']
 			}
 		}
 	});

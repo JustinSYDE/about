@@ -1,8 +1,8 @@
 NOTES :
 ========
 
-* Consider using a serif font for develeper and a sans serif font for bboy
-
+X Consider using a serif font for develeper and a sans serif font for bboy
+* Add 'back-to-top' button
 
 Developer:
 ==========

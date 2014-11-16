@@ -43,4 +43,67 @@ define(['directivesFactory'], function(directivesFactory){
 			templateUrl: "templates/bboyPartials/bboy-contact.html"
 		};
 	});
+
+	directivesFactory.directive('bboyDk', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-dk.html"
+		};
+	});
+
+	directivesFactory.directive('bboyDryleaf', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-dryleaf.html"
+		};
+	});
+
+	directivesFactory.directive('bboyIsotope', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-isotope.html"
+		};
+	});
+
+	directivesFactory.directive('bboyJuvi', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-juvi.html"
+		};
+	});
+
+	directivesFactory.directive('bboyMaddy', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-maddy.html"
+		};
+	});
+
+	directivesFactory.directive('bboyMusclez', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-musclez.html"
+		};
+	});
+
+	directivesFactory.directive('bboyPabreezy', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-pabreezy.html"
+		};
+	});
+
+	directivesFactory.directive('bboyRawfiki', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bboy-rawfiki.html"
+		};
+	});
+
+	directivesFactory.directive('bgirlKarebear', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/bboyPartials/saiko/bgirl-karebear.html"
+		};
+	});
 });
