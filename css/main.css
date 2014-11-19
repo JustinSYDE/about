@@ -112,8 +112,20 @@ h3{
 	padding: 8px 24px;
 }
 
-.downButton, .upButton, .downButton:hover, .upButton:hover{
+.downButton{
 	padding: 8px 17px;
+}
+
+.upButton{
+	padding: 5px 17px;
+}
+
+.downButton:hover{
+	padding: 9px 17px;
+}
+
+.upButton:hover{
+	padding: 7px 17px;
 }
 
 .buttonRow{

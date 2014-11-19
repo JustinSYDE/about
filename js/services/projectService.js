@@ -21,6 +21,10 @@ define(["servicesFactory"], function(servicesFactory) {
 		      }
 		    },
 
+		    setJourney: function(setProject){
+		    	projectService.project = setProject;
+		    },
+
 		    scrollTo: function(section){
 		    	$('html, body').animate({
 		    		scrollTop: $(section).offset().top

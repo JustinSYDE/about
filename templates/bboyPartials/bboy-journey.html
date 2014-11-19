@@ -9,15 +9,6 @@
 
             <div class="cd-timeline-content">
                 <h3>STARTED FROM THE BOTTOM</h3>
-                <div class="buttonRow">
-                    <a class="downButton" ng-click="projectService.setProject(-2)">
-                        <p>▼</p>
-                    </a>
-
-                    <a class="upButton" ng-click="projectService.setProject(-2)">
-                        <p>▲</p>
-                    </a>
-                </div>
                 <p>I met Aaron when I was 12 and I started training 3 hours a day in my parent's basement. I stopped growing at this point.</p>
                 <span class="cd-date">'07</span>
             </div> <!-- cd-timeline-content -->
@@ -32,7 +23,16 @@
                 <h3>FRESH MEAT</h3>
                 <p>I battled against my seniors and won my first jam. Oh yea, and I got recruited to Saiko Skematiks Squad.</p>
                 <p>♫ STARTED ... BOTTOM </p>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/nbCiTdjZK0U?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(10)" ng-hide="projectService.isSet(10)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(10)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(10)"width="450px" height="253px" src="http://www.youtube.com/embed/nbCiTdjZK0U?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <span class="cd-date">'09</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -44,7 +44,16 @@
             <div class="cd-timeline-content">
                 <h3>INITIATION</h3>
                 <p>First full crew on crew battle with Saiko Skematiks Squad @ Harbourfront</p>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/kVrJM-oHiaA?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(11)" ng-hide="projectService.isSet(11)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(11)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(11)"width="450px" height="253px" src="http://www.youtube.com/embed/kVrJM-oHiaA?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <span class="cd-date">'10</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -56,7 +65,16 @@
             <div class="cd-timeline-content">
                 <h3>5 Pointz | NYC</h3>
                 <p>Every bboy has to visit the birth place of hip-hop at one point, right? I was lucky enough to get a picture at 5 Pointz before it got demolished in '14.</p>
-                <img src="css/images/bboy/fivePointz.JPG">
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(12)" ng-hide="projectService.isSet(12)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(12)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <img ng-show="projectService.isSet(12)" src="css/images/bboy/fivePointz.JPG">
                 <span class="cd-date">'10</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -68,7 +86,16 @@
             <div class="cd-timeline-content">
                 <h3>LIGHTS</h3>
                 <p>Opened up for Lights from Canada.</p>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/-0A9EIeQFjc?rel=0&start=65&end=80&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(13)" ng-hide="projectService.isSet(13)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(13)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(13)"width="450px" height="253px" src="http://www.youtube.com/embed/-0A9EIeQFjc?rel=0&start=65&end=80&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <img src="css/images/bboy/lights.jpg">
                 <span class="cd-date">'11</span>
             </div> <!-- cd-timeline-content -->
@@ -81,7 +108,16 @@
             <div class="cd-timeline-content">
                 <h3>Highschool vs Highschool</h3>
                 <p>The best highschools battle against each other every year at Dundas Square, Toronto.</p>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/AtGydS9MuK8?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(14)" ng-hide="projectService.isSet(14)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(14)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(14)"width="450px" height="253px" src="http://www.youtube.com/embed/AtGydS9MuK8?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <span class="cd-date">'11</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -93,7 +129,16 @@
             <div class="cd-timeline-content">
                 <h3>Top Wanted | Hong Kong</h3>
                 <p>Ranked top 8 amongst 120+ bboys from China, Malaysia, Europe, Taiwan, Japan, and others.</p>
-                <img src="css/images/bboy/hk.jpg">
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(15)" ng-hide="projectService.isSet(15)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(15)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <img ng-show="projectService.isSet(15)" src="css/images/bboy/hk.jpg">
                 <span class="cd-date">'12</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -105,7 +150,16 @@
             <div class="cd-timeline-content">
                 <h3>Win x Community | Waterloo</h3>
                 <p>1st place with my partner Kang from uLaurier.</p>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/ZIVxwPNOfec?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(16)" ng-hide="projectService.isSet(16)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(16)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(16)"width="450px" height="253px" src="http://www.youtube.com/embed/ZIVxwPNOfec?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <span class="cd-date">'13</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -117,7 +171,16 @@
             <div class="cd-timeline-content">
                 <h3>Win x Battle at TOB | Toronto</h3>
                 <p>1st place. </p>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/U5pxifqz3LU?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(17)" ng-hide="projectService.isSet(17)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(17)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(17)"width="450px" height="253px" src="http://www.youtube.com/embed/U5pxifqz3LU?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <span class="cd-date">'13</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -151,7 +214,16 @@
             <div class="cd-timeline-content">
                 <h3>5 Kings | Calgary</h3>
                 <p>Top 8 with Juicebox Crew.</p>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/e_6FoGAFquw?rel=0&start=249&end=289&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(18)" ng-hide="projectService.isSet(18)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(18)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(18)"width="450px" height="253px" src="http://www.youtube.com/embed/e_6FoGAFquw?rel=0&start=249&end=289&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <span class="cd-date">'14</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
@@ -173,7 +245,16 @@
 
             <div class="cd-timeline-content">
                 <h3>I'm Juvi J, & this is me</h3>
-                <iframe width="450px" height="253px" src="http://www.youtube.com/embed/6ibW7h-ezWI?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow">
+                    <a class="downButton" ng-click="projectService.setJourney(19)" ng-hide="projectService.isSet(19)">
+                        <p>▼</p>
+                    </a>
+
+                    <a class="upButton" ng-click="projectService.setJourney(-2)" ng-show="projectService.isSet(19)">
+                        <p>▲</p>
+                    </a>
+                </div>
+                <iframe ng-show="projectService.isSet(19)"width="450px" height="253px" src="http://www.youtube.com/embed/6ibW7h-ezWI?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
                 <span class="cd-date">∞</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
