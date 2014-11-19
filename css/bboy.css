@@ -152,3 +152,8 @@
 #bboyJourney{
 	background: url(images/backgrounds/cartographer.png);
 }
+
+iframe{
+	margin-left: auto;
+	margin-right: auto;
+}

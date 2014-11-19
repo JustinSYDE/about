@@ -2,11 +2,11 @@
 //CONTROLLER DEFINTIIONS SHOULD BE MINIMAL SPECIFYING WHICH CONTROLLER USES WHICH SERVICE, ETC.
 
 define(["controllersFactory", 
-	'directives/bboyDirectives',
 	'services/tabService', 
 	'services/projectService',
 	'services/gmapsService',
-	'services/verticalTimelineService'], 
+	'services/verticalTimelineService',
+	'directives/bboyDirectives'], 
 	function(controllersFactory) {
 
 	controllersFactory.controller('BboyCtrl', 
@@ -26,6 +26,7 @@ define(["controllersFactory",
 			$scope.projectService = projectService;
 			$scope.gmapsService = gmapsService;
 			$scope.verticalTimelineService = verticalTimelineService;
+			
 			$scope.verticalTimelineService.start();
 			$scope.gmapsService.init_map_dance();
 	}]);

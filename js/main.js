@@ -14,7 +14,7 @@
 			'angular': 'libs/angular-1.2.24',
 			'angularRoute': 'libs/angular-route-1.2.24',
 			'bootstrap': 'libs/modernizr-2.6.2-respond-1.1.0.min',
-			'jquery': 'libs/jquery-1.11.0.min',
+			'jquery': 'libs/jquery',
 			'bootstrapJS': 'libs/bootstrap',
 			'async': 'libs/async'
 		},

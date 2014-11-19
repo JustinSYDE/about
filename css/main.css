@@ -85,6 +85,44 @@ h3{
 	text-transform: uppercase;
 }
 
+
+.closeProjectButton, .downButton, .upButton{
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px 25px;
+	color: #cccccc;
+	font-size: 50px;
+	border-radius: 50px;
+	border: 4px solid #cccccc;
+	background-color: transparent;
+}
+
+.closeProjectButton:hover, .downButton:hover, .upButton:hover{
+	background-color: #d8d8d8;
+	border: 4px solid gray;
+	color: gray;
+	font-size: 40px;
+	width: 80px;
+	height: 80px;
+	margin-top: 5px;
+	padding: 8px 24px;
+}
+
+.downButton, .upButton, .downButton:hover, .upButton:hover{
+	padding: 8px 17px;
+}
+
+.buttonRow{
+	padding-top: 30px;
+	width: 100%;
+	height: 100px;
+	padding-top: 5px;
+}
+
 footer{
   padding: 15px 0 15px 0;
   text-align: center;

@@ -25,6 +25,10 @@ Modules - reusable parts of our design
 
 /* -------------------------------- MAIN COMPONENTS -------------------------------- */
 
+.cd-date{
+  font-size: 16px;
+}
+
 #cd-timeline {
   position: relative;
   padding: 2em 0;
@@ -40,7 +44,7 @@ Modules - reusable parts of our design
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d2d5b7;
+  background: white;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -189,10 +193,10 @@ Modules - reusable parts of our design
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #f0f1e7;
+  background: white;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d2d5b7;
+  box-shadow: 0 3px 0 gray;
 }
 .cd-timeline-content:after {
   content: "";
@@ -206,10 +210,10 @@ Modules - reusable parts of our design
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
-.cd-timeline-content p {
+/*.cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
-}
+}*/
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
