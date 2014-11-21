@@ -151,11 +151,12 @@
 	background: url(images/crewMembers/dkBanner.png);
 }
 
-.bboyText{
-	padding: 100px 0;
+#dryleafDescription{
+	background: url(images/crewMembers/dryleafBanner.png);
 }
 
-.bboyDescription{
+.bboyText{
+	padding: 100px 0;
 }
 
 /*------------------------------------------ JOURNEY -------------------------------------------*/
