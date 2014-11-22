@@ -155,6 +155,34 @@
 	background: url(images/crewMembers/dryleafBanner.png);
 }
 
+#karebearDescription{
+	background: url(images/crewMembers/karebearBanner.png);
+}
+
+#juviDescription{
+	background: url(images/crewMembers/juviBanner.png);
+}
+
+#maddyDescription{
+	background: url(images/crewMembers/maddyBanner.png);
+}
+
+#isotopeDescription{
+	background: url(images/crewMembers/isotopeBanner.png);
+}
+
+#rawfikiDescription{
+	background: url(images/crewMembers/rawfikiBanner.png);
+}
+
+#pabreezyDescription{
+	background: url(images/crewMembers/pabreezyBanner.png);
+}
+
+#musclezDescription{
+	background: url(images/crewMembers/musclezBanner.png);
+}
+
 .bboyText{
 	padding: 100px 0;
 }
