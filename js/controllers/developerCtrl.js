@@ -4,25 +4,20 @@
 define(["controllersFactory", 
 	'directives/developerDirectives',
 	'services/tabService', 
-	'services/projectService',
-	'services/gmapsService'], 
+	'services/projectService'], 
 	function(controllersFactory) {
 
 	controllersFactory.controller('DeveloperCtrl', 
 		['$scope', 
 		'TabService',
 		'ProjectService',
-		'GmapsService',
 
 		function($scope, 
 			tabService,
-			projectService,
-			gmapsService) {
+			projectService) {
 
 			$scope.tabService = tabService;
 			$scope.projectService = projectService;
-			$scope.gmapsService = gmapsService;
-			$scope.gmapsService.init_map();
 	}]);
 
 });
