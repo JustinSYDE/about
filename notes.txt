@@ -3,6 +3,7 @@ NOTES :
 
 X Consider using a serif font for develeper and a sans serif font for bboy
 * Add 'back-to-top' button to all pages
+* Add background color to dropdown collapsible menu for navbar
 
 Developer:
 ==========
@@ -13,6 +14,8 @@ Developer:
 
 BBOY:
 =====
+
+* youtube videos have to be responsive
 
 Fonts:
 ------
