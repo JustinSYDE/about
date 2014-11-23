@@ -79,12 +79,11 @@ h1{
 	text-transform: uppercase;
 }
 
-h3{
+h3, h2{
 	text-align: center;
 	font-family: 'Lato', Arial;
 	text-transform: uppercase;
 }
-
 
 .closeProjectButton, .downButton, .upButton{
 	display: block;

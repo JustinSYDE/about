@@ -1,0 +1,55 @@
+/*------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------*/
+
+@media (max-width: 1000px){
+	#blurb, .blurbTextWrapper, .blurbText{
+		width: 700px;
+		height: auto;
+	}
+
+	.blurbTextWrapper{
+		display: no;
+	}
+
+	#bboyBanner{
+		background-image: url(images/backgrounds/snakeMid.jpg);
+		background-size: auto 100%;
+	}
+
+	#bboyBanner h1{
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 800px){
+	#blurb, .blurbTextWrapper, .blurbText{
+		width: 400px;
+	}
+
+	#bboyBanner h1{
+		font-size: 60px;
+	}
+
+	#bboyBanner .iAmText{
+		margin-right: 40%;
+	}
+}
+
+@media (max-width: 700px){
+	#bboyStory h1, #bboyCrew h1, #bboyJourney h1, #bboyContact h1, #crewDescription h1{
+		font-size: 70px;
+	}
+
+	#bboyBanner{
+		background-image: url(images/backgrounds/snakeSmall.jpg);
+	}
+}
+
+@media (max-width: 450px){
+	#blurb, .blurbTextWrapper, .blurbText{
+		width: 300px;
+	}
+
+	.iAmText{
+		margin-top: 80px;
+	}
+}
