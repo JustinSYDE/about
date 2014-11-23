@@ -1,5 +1,21 @@
 /*------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------*/
 
+@media (max-width: 1200px){
+	.crewWrapper{
+		width: 684px;
+	}
+
+	.memberWrapperMiddle{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.memberWrapper{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
 @media (max-width: 1000px){
 	#blurb, .blurbTextWrapper, .blurbText{
 		width: 700px;
@@ -31,6 +47,10 @@
 
 	#bboyBanner .iAmText{
 		margin-right: 40%;
+	}
+
+	.crewWrapper{
+		width: 320px;
 	}
 }
 
