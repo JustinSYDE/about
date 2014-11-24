@@ -82,11 +82,16 @@
 			gmaps) {
 		require([
 				'controllers/developerCtrl',
-				'controllers/bboyCtrl'
+				'controllers/bboyCtrl',
+				'controllers/frontCtrl'
 			],
 			function() {
 				app.config(['$routeProvider', function($routeProvider) {
 					$routeProvider
+
+						.when('/front', {templateUrl: 'templates/front.html', controller: "FrontCtrl"}).
+						otherwise({redirectTo: '/'})
+
 						.when('/', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
 						otherwise({redirectTo: '/'})
 
