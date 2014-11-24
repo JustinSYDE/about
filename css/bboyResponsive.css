@@ -59,16 +59,22 @@
 		font-size: 70px;
 	}
 
-	#bboyBanner{
-		background-image: url(images/backgrounds/snakeSmall.jpg);
-	}
-
 	iframe{
 		height: 250px;
 	}
 
 	iframe, #bboyJourney img{
 		padding: 2px;
+	}
+
+	#dkDescription, #dryleafDescription, #karebearDescription, #juviDescription, #isotopeDescription, #maddyDescription, #pabreezyDescription, #musclezDescription, #rawfikiDescription{
+		background-size: auto 700px;
+	}
+}
+
+@media (max-width: 600px){
+	#bboyBanner{
+		background-image: url(images/backgrounds/snakeSmall.jpg);
 	}
 }
 
