@@ -16,6 +16,7 @@ BBOY:
 =====
 
 * youtube videos have to be responsive
+* Add black shadow behind .iAmBboy text
 
 Fonts:
 ------

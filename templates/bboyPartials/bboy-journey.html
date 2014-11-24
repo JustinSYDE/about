@@ -9,7 +9,7 @@
 
             <div class="cd-timeline-content">
                 <h3>STARTED FROM THE BOTTOM</h3>
-                <p>I met Aaron when I was 12 and I started training 3 hours a day in my parent's basement. I stopped growing at this point.</p>
+                <p>And I took the stairs. I met Aaron when I was 12 and I started training 3 hours everyday in my parent's basement. I coincidentally stopped growing at this point.</p>
                 <span class="cd-date">'07</span>
             </div> <!-- cd-timeline-content -->
 
@@ -22,17 +22,16 @@
             <div class="cd-timeline-content">
                 <h3>FRESH MEAT</h3>
                 <p>I battled against my seniors and won my first jam. Oh yea, and I got recruited to Saiko Skematiks Squad.</p>
-                <p>♫ STARTED ... BOTTOM </p>
 
-                <div class="buttonRow"  ng-hide="projectService.isSet(10)">
-                    <a class="downButton" ng-click="projectService.setJourney(10)">
+                <div class="buttonRow"  ng-hide="projectService.isSet(16)">
+                    <a class="downButton" ng-click="projectService.setJourney(16)">
                         <p>▼</p>
                     </a>
                 </div>
 
-                <iframe ng-show="projectService.isSet(10)"width="450px" height="253px" src="http://www.youtube.com/embed/nbCiTdjZK0U?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <iframe ng-show="projectService.isSet(16)" src="http://www.youtube.com/embed/nbCiTdjZK0U?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
 
-                <div class="buttonRow"  ng-show="projectService.isSet(10)">
+                <div class="buttonRow"  ng-show="projectService.isSet(16)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -48,14 +47,14 @@
             <div class="cd-timeline-content">
                 <h3>INITIATION</h3>
                 <p>First full crew on crew battle with Saiko Skematiks Squad @ Harbourfront</p>
-                <div class="buttonRow"  ng-hide="projectService.isSet(11)">
-                    <a class="downButton" ng-click="projectService.setJourney(11)">
+                <div class="buttonRow"  ng-hide="projectService.isSet(17)">
+                    <a class="downButton" ng-click="projectService.setJourney(17)">
                         <p>▼</p>
                     </a>
                 </div>
-                <iframe ng-show="projectService.isSet(11)"width="450px" height="253px" src="http://www.youtube.com/embed/kVrJM-oHiaA?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <iframe ng-show="projectService.isSet(17)" src="http://www.youtube.com/embed/kVrJM-oHiaA?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
 
-                <div class="buttonRow"  ng-show="projectService.isSet(11)">
+                <div class="buttonRow"  ng-show="projectService.isSet(17)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -71,14 +70,14 @@
             <div class="cd-timeline-content">
                 <h3>5 Pointz | NYC</h3>
                 <p>Every bboy has to visit the birth place of hip-hop at one point, right? I was lucky enough to get a picture at 5 Pointz before it got demolished in '14.</p>
-                <div class="buttonRow" ng-hide="projectService.isSet(12)">
-                    <a class="downButton" ng-click="projectService.setJourney(12)">
+                <div class="buttonRow" ng-hide="projectService.isSet(18)">
+                    <a class="downButton" ng-click="projectService.setJourney(18)">
                         <p>▼</p>
                     </a>
                 </div>
-                <img ng-show="projectService.isSet(12)" src="css/images/bboy/fivePointz.JPG">
+                <img ng-show="projectService.isSet(18)" src="css/images/bboy/fivePointz.JPG">
 
-                <div class="buttonRow" ng-show="projectService.isSet(12)">
+                <div class="buttonRow" ng-show="projectService.isSet(18)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -94,15 +93,16 @@
             <div class="cd-timeline-content">
                 <h3>LIGHTS</h3>
                 <p>Opened up for Lights from Canada.</p>
-                <div class="buttonRow" ng-hide="projectService.isSet(13)">
-                    <a class="downButton" ng-click="projectService.setJourney(13)">
+                <div class="buttonRow" ng-hide="projectService.isSet(19)">
+                    <a class="downButton" ng-click="projectService.setJourney(19)">
                         <p>▼</p>
                     </a>
                 </div>
-                <iframe ng-show="projectService.isSet(13)"width="450px" height="253px" src="http://www.youtube.com/embed/-0A9EIeQFjc?rel=0&start=65&end=80&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                <img ng-show="projectService.isSet(13)" src="css/images/bboy/lights.jpg">
+                <iframe ng-show="projectService.isSet(19)" src="http://www.youtube.com/embed/-0A9EIeQFjc?rel=0&start=65&end=80&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <p ng-show="projectService.isSet(19)">Backstage photo!</p>
+                <img ng-show="projectService.isSet(19)" src="css/images/bboy/lights.jpg">
 
-                <div class="buttonRow" ng-show="projectService.isSet(13)">
+                <div class="buttonRow" ng-show="projectService.isSet(19)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -118,13 +118,13 @@
             <div class="cd-timeline-content">
                 <h3>Highschool vs Highschool</h3>
                 <p>The best highschools battle against each other every year at Dundas Square, Toronto.</p>
-                <div class="buttonRow" ng-hide="projectService.isSet(14)">
-                    <a class="downButton" ng-click="projectService.setJourney(14)">
+                <div class="buttonRow" ng-hide="projectService.isSet(20)">
+                    <a class="downButton" ng-click="projectService.setJourney(20)">
                         <p>▼</p>
                     </a>
                 </div>
-                <iframe ng-show="projectService.isSet(14)"width="450px" height="253px" src="http://www.youtube.com/embed/AtGydS9MuK8?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                <div class="buttonRow" ng-show="projectService.isSet(14)">
+                <iframe ng-show="projectService.isSet(20)" src="http://www.youtube.com/embed/AtGydS9MuK8?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow" ng-show="projectService.isSet(20)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -140,13 +140,13 @@
             <div class="cd-timeline-content">
                 <h3>Top Wanted | Hong Kong</h3>
                 <p>Ranked top 8 amongst 120+ bboys from China, Malaysia, Europe, Taiwan, Japan, and others.</p>
-                <div class="buttonRow" ng-hide="projectService.isSet(15)">
-                    <a class="downButton" ng-click="projectService.setJourney(15)">
+                <div class="buttonRow" ng-hide="projectService.isSet(21)">
+                    <a class="downButton" ng-click="projectService.setJourney(21)">
                         <p>▼</p>
                     </a>
                 </div>
-                <img ng-show="projectService.isSet(15)" src="css/images/bboy/hk.jpg">
-                <div class="buttonRow" ng-show="projectService.isSet(15)">
+                <img ng-show="projectService.isSet(21)" src="css/images/bboy/hk.jpg">
+                <div class="buttonRow" ng-show="projectService.isSet(21)">
                      <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -162,13 +162,13 @@
             <div class="cd-timeline-content">
                 <h3>Win x Community | Waterloo</h3>
                 <p>1st place with my partner Kang from uLaurier.</p>
-                <div class="buttonRow" ng-hide="projectService.isSet(16)">
-                    <a class="downButton" ng-click="projectService.setJourney(16)">
+                <div class="buttonRow" ng-hide="projectService.isSet(22)">
+                    <a class="downButton" ng-click="projectService.setJourney(22)">
                         <p>▼</p>
                     </a>
                 </div>
-                <iframe ng-show="projectService.isSet(16)"width="450px" height="253px" src="http://www.youtube.com/embed/ZIVxwPNOfec?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                <div class="buttonRow" ng-show="projectService.isSet(16)">
+                <iframe ng-show="projectService.isSet(22)" src="http://www.youtube.com/embed/ZIVxwPNOfec?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow" ng-show="projectService.isSet(22)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -184,13 +184,13 @@
             <div class="cd-timeline-content">
                 <h3>Win x Battle at TOB | Toronto</h3>
                 <p>1st place. </p>
-                <div class="buttonRow" ng-hide="projectService.isSet(17)">
-                    <a class="downButton" ng-click="projectService.setJourney(17)">
+                <div class="buttonRow" ng-hide="projectService.isSet(23)">
+                    <a class="downButton" ng-click="projectService.setJourney(23)">
                         <p>▼</p>
                     </a>
                 </div>
-                <iframe ng-show="projectService.isSet(17)"width="450px" height="253px" src="http://www.youtube.com/embed/U5pxifqz3LU?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                <div class="buttonRow" ng-show="projectService.isSet(17)">
+                <iframe ng-show="projectService.isSet(23)" src="http://www.youtube.com/embed/U5pxifqz3LU?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow" ng-show="projectService.isSet(23)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -228,13 +228,13 @@
             <div class="cd-timeline-content">
                 <h3>5 Kings | Calgary</h3>
                 <p>Top 8 with Juicebox Crew.</p>
-                <div class="buttonRow" ng-hide="projectService.isSet(18)">
-                    <a class="downButton" ng-click="projectService.setJourney(18)">
+                <div class="buttonRow" ng-hide="projectService.isSet(24)">
+                    <a class="downButton" ng-click="projectService.setJourney(24)">
                         <p>▼</p>
                     </a>
                 </div>
-                <iframe ng-show="projectService.isSet(18)"width="450px" height="253px" src="http://www.youtube.com/embed/e_6FoGAFquw?rel=0&start=249&end=289&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                <div class="buttonRow" ng-show="projectService.isSet(18)">
+                <iframe ng-show="projectService.isSet(24)" src="http://www.youtube.com/embed/e_6FoGAFquw?rel=0&start=249&end=289&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow" ng-show="projectService.isSet(24)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>
@@ -260,13 +260,13 @@
 
             <div class="cd-timeline-content">
                 <h3>I'm Juvi J, & this is me</h3>
-                <div class="buttonRow" ng-hide="projectService.isSet(19)">
-                    <a class="downButton" ng-click="projectService.setJourney(19)">
+                <div class="buttonRow" ng-hide="projectService.isSet(25)">
+                    <a class="downButton" ng-click="projectService.setJourney(25)">
                         <p>▼</p>
                     </a>
                 </div>
-                <iframe ng-show="projectService.isSet(19)"width="450px" height="253px" src="http://www.youtube.com/embed/6ibW7h-ezWI?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                <div class="buttonRow"  ng-show="projectService.isSet(19)">
+                <iframe ng-show="projectService.isSet(25)" src="http://www.youtube.com/embed/6ibW7h-ezWI?rel=0&start=&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                <div class="buttonRow"  ng-show="projectService.isSet(25)">
                     <a class="upButton" ng-click="projectService.setJourney(-2)">
                         <p>▲</p>
                     </a>

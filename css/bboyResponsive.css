@@ -62,6 +62,14 @@
 	#bboyBanner{
 		background-image: url(images/backgrounds/snakeSmall.jpg);
 	}
+
+	iframe{
+		height: 250px;
+	}
+
+	iframe, #bboyJourney img{
+		padding: 2px;
+	}
 }
 
 @media (max-width: 450px){
