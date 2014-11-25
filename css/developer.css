@@ -4,13 +4,13 @@ developer-banner h1, developer-contact h1, developer-project-descriptions h1, de
 }
 
 #developerBanner{
-	background: url(images/backgrounds/banner2.JPG);
+	background: url(images/backgrounds/banner3.PNG);
 }
 
 #developerSkills{
 	padding-left: 0;
 	padding-right: 0;
-	background-image: url(images/backgrounds/white_wall_hash.png);
+	background-color: #FFF8DC;
 }
 
 #iAmDeveloper{
@@ -150,7 +150,7 @@ footer, header, hgroup, menu, nav, section {
 /*------------------------------------------------------------------- PROJECTS --------------------------------------------------------------------*/
 
 #developerProjects{
-
+	background-color: #FFFAF0;
 }
 
 .projectWrapper{
@@ -265,7 +265,8 @@ footer, header, hgroup, menu, nav, section {
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
 
 #developerContact{
-	background-image: url(images/backgrounds/old_moon.png);
+	background-image: url(images/backgrounds/stardust.png);
+	color: white;
 }
 
 #map_canvas {
