@@ -202,19 +202,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .projectButton{
-	display: block;
 	width: 90px;
 	height: 90px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 25px 12px;
-	color: white;
-	font-size: 24px;
-	border-radius: 50px;
-	background-color: #67a2d4;
+	background-image: url(images/projects/seeIt.png);
 }
 
-.projectButton:hover{
+/*.projectButton:hover{
 	background-color: #428bca;
 	color: white;
 	font-size: 13px;
@@ -223,43 +216,7 @@ footer, header, hgroup, menu, nav, section {
 	margin-top: 5px;
 	padding: 27px 18px;
 	border: 4px solid #f2f2f2;
-}
-
-#weatherSwatch:hover{
-	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-}
-
-#eightBall:hover{
-	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-}
-
-#sunriseAlarm:hover{
-	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-}
-
-#xoxo:hover{
-	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-}
-
-#metrocity:hover{
-	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-}
-
-#zoneSix:hover{
-	-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-	box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-}
+}*/
 
 
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
@@ -290,14 +247,6 @@ footer, header, hgroup, menu, nav, section {
 .socialButton{
 	width: 100px;
 	height: 100px;
-}
-
-.socialButton img:hover{
-	width: 80px;
-	height: 80px;
-	margin: 5px;
-	border: 4px solid #f2f2f2;
-	border-radius: 50px;
 }
 
 .socialMediaRow img{
