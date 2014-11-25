@@ -8,9 +8,17 @@
 	text-align: left;
 }
 
-#bboyBanner .iAmText{
+#iAmBboy{
 	margin-right: 50%;
 	margin-left: 0;
+}
+
+#iAmBboy{
+	background-color: #191919;
+	opacity: 0.6;
+	-webkit-box-shadow: 18px 10px 200px 120px #191919;
+	-moz-box-shadow: 18px 10px 200px 120px #191919;
+	box-shadow: 18px 10px 200px 120px #191919;
 }
 
 #bboyBanner{
