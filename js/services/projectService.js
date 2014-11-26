@@ -23,7 +23,6 @@ define(["servicesFactory"], function(servicesFactory) {
 
 		    setJourney: function(setProject, div){
 		    	projectService.project = setProject;
-		    	$(div).slideDown(1000);
 		    },
 
 		    scrollTo: function(section){
