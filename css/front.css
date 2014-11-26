@@ -1,8 +1,28 @@
-front-developer, front-bboy{
+#frontBboy, #frontDeveloper{
 	width: 50%;
 	height: 100%;
+	float: left;
 }
 
-front-bboy{
-	background-image: url(images/backgrounds/bannerMid.png);
+#frontDeveloper{
+	background-image: url(images/backgrounds/frontDevBanner2.png);
+	background-size: 130% auto;
+}
+
+#frontBboy{
+	background-image: url(images/backgrounds/frontBboyBanner3.jpg);
+	background-size: 150% auto;
+}
+
+#front{
+	
+}
+
+#frontButton{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: -60.5%;
 }
