@@ -1,4 +1,7 @@
 <div class="navbar navbar-fixed-top" role="navigation">
+  <a class="navbar-brand justinLogo" href="#/" ng-click="tabService.setTab(1)">
+  </a>
+
   <div class="navbar-header">
      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -9,9 +12,6 @@
   </div>
   <div class="navbar-collapse collapse">
     <ul class="nav nav-pills navbar-left">
-          <li>
-            <a ng-click="tabService.setTab(1)" href="#/">⌂</a>
-          </li>
 
           <li ng-class="{active: tabService.isSet(5)}">
             <a ng-click="tabService.setTab(5); tabService.scrollTo('#bboyStory')">STORY</a>

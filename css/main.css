@@ -54,8 +54,11 @@ h1{
 }
 
 .navbar-collapse{
-	float: left;
-	margin-left: 40%;
+	margin-left: 43%;
+}
+
+.navbar-brand {
+	padding: 12px 15px;
 }
 
 .banner{
@@ -77,6 +80,16 @@ h1{
 
 .iAmText h1{
 	text-align: right;
+}
+
+.justinLogo{
+	background-repeat: no-repeat;
+	width: 64px;
+	background-image: url(images/justinSYDE.png);
+}
+
+.justinLogo:hover{
+	background-image: url(images/justinSYDEHover.png);
 }
 
 h1{
