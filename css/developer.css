@@ -47,6 +47,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+#developerSkills h1{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 #lab {
 	width: 1000px;
 	overflow: hidden;
