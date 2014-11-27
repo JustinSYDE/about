@@ -89,10 +89,10 @@
 				app.config(['$routeProvider', function($routeProvider) {
 					$routeProvider
 
-						.when('/front', {templateUrl: 'templates/front.html', controller: "FrontCtrl"}).
+						.when('/', {templateUrl: 'templates/front.html', controller: "FrontCtrl"}).
 						otherwise({redirectTo: '/'})
 
-						.when('/', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
+						.when('/developer', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
 						otherwise({redirectTo: '/'})
 
 						.when('/bboy', {templateUrl: 'templates/bboy.html', controller: "BboyCtrl"}).
