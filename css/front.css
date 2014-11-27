@@ -2,20 +2,15 @@
 	width: 50%;
 	height: 100%;
 	float: left;
+	background-size: auto 100%;
 }
 
 #frontDeveloper{
 	background-image: url(images/backgrounds/frontDevBanner4.jpg);
-	background-size: 150% auto;
 }
 
 #frontBboy{
 	background-image: url(images/backgrounds/frontBboyBanner3.jpg);
-	background-size: 150% auto;
-}
-
-#front{
-	
 }
 
 #frontButton{
