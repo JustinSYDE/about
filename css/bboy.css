@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Kameron);
+@import url(http://fonts.googleapis.com/css?family=Arvo);
 
 #bboyBanner h1{
 	font-size: 120px;
-	font-family: "Rockwell", 'Kameron', serif;
+	font-family: 'Rockwell', 'Arvo', serif;
 	text-align: left;
 }
 
@@ -33,7 +33,7 @@
 /*-------------------------------------- STORY ----------------------------------*/
 
 #bboyStory h1, #bboyCrew h1, #bboyJourney h1, #bboyContact h1, #crewDescription h1{
-	font-family: "Rockwell";
+	font-family: 'Rockwell', "Arvo", serif;
 	font-size: 100px;
 }
 
