@@ -40,7 +40,8 @@ h1{
 }
 
 .nav{
-	height: 64px
+	height: 64px;
+	text-align: center;
 }
 
 .nav-pills>li>a {
@@ -195,23 +196,13 @@ footer p{
 	}
 }
 
-@media (max-width: 750px){
+@media (max-width: 767px){
 	.navbar-collapse{
-		margin-left: 20%;
-	}
-}
-
-@media (max-width: 700px){
-	.navbar-collapse{
-		margin-left: 15%;
+		margin-left: 0%;
 	}
 }
 
 @media (max-width: 640px) {
-
-	.navbar-collapse{
-		margin-left: 0%;
-	}
 
 	.iAmText h1{
 		font-size: 80px;

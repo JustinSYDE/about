@@ -3561,7 +3561,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .nav-pills > li {
-  float: left;
+  /*float: left;*/
+  display: inline-block;
+  text-align: center;
 }
 .nav-pills > li > a {
   border-radius: 4px;

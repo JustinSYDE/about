@@ -1,5 +1,9 @@
 /*------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------*/
-
+@media (max-width: 1600px){
+	#bboyBanner{
+		background-size: auto 100%;
+	}
+}
 @media (max-width: 1200px){
 	.crewWrapper{
 		width: 684px;
