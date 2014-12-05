@@ -25,3 +25,11 @@ Fonts:
 * Futura
 * Rockwell
 * OSAKA
+
+ISSUES:
+=======
+
+* Bboy font doesn't display properly on iphone 
+* center screenshots for developer-projects
+* Right margin exists on iphone display
+* main button not centered properly on mobile devices 

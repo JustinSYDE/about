@@ -68,6 +68,7 @@
 
 	.projectText, .projectPicture{
 		width: 100%;
+		text-align: center;
 	}
 
 	.projectPicture img{
@@ -80,6 +81,9 @@
 		padding-right: 15%;
 	}
 
+	ul{
+		text-align: left;
+	}
 }
 
 @media (max-width: 790px){
