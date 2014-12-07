@@ -93,6 +93,11 @@
 }
 
 @media (max-width: 400px){
+
+	#bboyBanner{
+		background-size: 100% 100%;
+	}
+
 	#bboyStory h1, #bboyCrew h1, #bboyJourney h1, #bboyContact h1, #crewDescription h1{
 		font-size: 50px;
 	}
