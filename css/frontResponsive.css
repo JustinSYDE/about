@@ -5,6 +5,7 @@
 		float: left;
 		background-size: 100% auto;
 	}
+}
 
 @media (max-width: 700px){
 	#frontBboy, #frontDeveloper{
@@ -13,19 +14,19 @@
 }
 
 @media (max-width: 475px){
--	#frontButton{
--		width: 300px;
--		height: 300px;
--	}
--}
+	#frontButton{
+		width: 300px;
+		height: 300px;
+	}
+}
 
 @media (max-width: 400px){
--	#frontButton{
--		width: 200px;
+	#frontButton{
+		width: 200px;
 		height: 200px;
--	}
+	}
 
 	#frontBboy, #frontDeveloper{
-		background-size: 100% auto;
+		background-size: auto 100%;
 	}
--}
+}
