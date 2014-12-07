@@ -11,3 +11,17 @@
 		background-size: auto 100%;
 	}
 }
+
+@media (max-width: 475px){
+-	#frontButton{
+-		width: 300px;
+-		height: 300px;
+-	}
+-}
+
+@media (max-width: 400px){
+-	#frontButton{
+-		margin-top: 55%;
+-		margin-left: -84%;
+-	}
+-}
