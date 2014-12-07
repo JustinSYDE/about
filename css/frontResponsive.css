@@ -21,7 +21,11 @@
 
 @media (max-width: 400px){
 -	#frontButton{
--		margin-top: 55%;
--		margin-left: -84%;
+-		width: 200px;
+		height: 200px;
 -	}
+
+	#frontBboy, #frontDeveloper{
+		background-size: 100% auto;
+	}
 -}
