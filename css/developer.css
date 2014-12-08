@@ -224,6 +224,54 @@ footer, header, hgroup, menu, nav, section {
 	border: 4px solid #f2f2f2;
 }*/
 
+#weatherSwatch:hover{
+  -webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#eightBall:hover{
+  -webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#sunriseAlarm:hover{
+  -webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#xoxo:hover{
+  -webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#metrocity:hover{
+  -webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#zoneSix:hover{
+  -webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
 
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
 
