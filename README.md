@@ -1,4 +1,1 @@
-BAR-Boilerplate
-===============
-
-Custom Bootstrap + AngularJS + RequireJS  Boilerplate
+(Coming Soon)!
