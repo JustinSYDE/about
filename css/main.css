@@ -52,7 +52,9 @@ h1{
 }
 
 .nav-pills>li>a:hover{
-	background-color: black;
+	background-color: #78C0A8;
+	color: white;
+	transition: 0.5s all;
 }
 
 .navbar-collapse{
@@ -71,7 +73,9 @@ h1{
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-	background-color: #78C0A8;
+	background-color: #191919;
+	color: #78C0A8;
+	transition: 2s all;
 }
 
 .iAmText{

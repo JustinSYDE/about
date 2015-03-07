@@ -88,7 +88,6 @@
 			function() {
 				app.config(['$routeProvider', function($routeProvider) {
 					$routeProvider
-
 						.when('/', {templateUrl: 'templates/front.html', controller: "FrontCtrl"}).
 						otherwise({redirectTo: '/'})
 
