@@ -11,11 +11,11 @@
 	require.config({
 		baseUrl: 'js',
 		paths: {
-			'angular': 'libs/angular-1.2.24',
-			'angularRoute': 'libs/angular-route-1.2.24',
+			'angular': 'libs/angular-min-1.2.24',
+			'angularRoute': 'libs/angular-route-min-1.2.24',
 			'bootstrap': 'libs/modernizr-2.6.2-respond-1.1.0.min',
 			'jquery': 'libs/jquery',
-			'bootstrapJS': 'libs/bootstrap',
+			'bootstrapJS': 'libs/bootstrap.min',
 			'async': 'libs/async'
 		},
 		shim: {

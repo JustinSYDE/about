@@ -22,12 +22,7 @@
 		width: 700px;
 	}
 
-	.projectBox{
-		width: 230px;
-		height: 216px;
-	}
-
-	.projectBox img{
+	.projectBox, .projectBox img{
 		width: 230px;
 		height: 216px;
 	}
@@ -133,12 +128,7 @@
 		width: 365px;
 	}
 
-	.projectBox{
-		width: 180px;
-		height: 169px;
-	}
-
-	.projectBox img{
+	.projectBox, .projectBox img{
 		width: 180px;
 		height: 169px;
 	}
@@ -173,12 +163,7 @@
 		width: 300px;
 	}
 
-	.projectBox{
-		width: 140px;
-		height: 131px;
-	}
-
-	.projectBox img{
+	.projectBox, .projectBox img{
 		width: 140px;
 		height: 131px;
 	}
