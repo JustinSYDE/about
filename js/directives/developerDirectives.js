@@ -79,6 +79,13 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerDontRush', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-dont-rush.html"
+		};
+	});
+
 	directivesFactory.directive('developerContact', function(){  
 		return{
 			restrict: 'E',
