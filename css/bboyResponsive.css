@@ -32,7 +32,7 @@
 	}
 
 	#bboyBanner{
-		background-image: url(images/backgrounds/snakeMid.jpg);
+		background-image: url(images/backgrounds/snakeMidBW.jpg);
 		background-size: auto 100%;
 	}
 
@@ -79,7 +79,7 @@
 
 @media (max-width: 600px){
 	#bboyBanner{
-		background-image: url(images/backgrounds/snakeSmall.jpg);
+		background-image: url(images/backgrounds/snakeSmallBW.jpg);
 	}
 }
 
