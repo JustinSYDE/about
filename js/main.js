@@ -13,9 +13,7 @@
 		paths: {
 			'angular': 'libs/angular-min-1.2.24',
 			'angularRoute': 'libs/angular-route-min-1.2.24',
-			'bootstrap': 'libs/modernizr-2.6.2-respond-1.1.0.min',
 			'jquery': 'libs/jquery',
-			'bootstrapJS': 'libs/bootstrap.min',
 		},
 		shim: {
 			'angular': {
@@ -26,12 +24,6 @@
 			},
 			'jquery': {
 				exports: '$'
-			},
-			'bootstrapJS': {
-				deps: ['jquery']
-			},
-			'verticalTimeline': {
-				deps: ['jquery']
 			}
 		}
 	});
@@ -64,13 +56,9 @@
 
 	//BOOTSTRAP ANGULARJS TO THE MOTHER 'APP'
 	require(['app', 
-		'jquery', 
-		'bootstrap', 
-		'bootstrapJS'], 
+		'jquery'], 
 		function(app, 
-			jquery, 
-			bootstrap, 
-			bootstrapJS) {
+			jquery) {
 		require([
 				'controllers/developerCtrl',
 			],
