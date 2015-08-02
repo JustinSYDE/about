@@ -4,7 +4,7 @@ developer-banner h1, developer-contact h1, developer-project-descriptions h1, de
 }
 
 #developerBanner{
-	background: url(images/backgrounds/mainBanner.png);
+	background: url(../resources/images/backgrounds/mainBanner.png);
 }
 
 #developerBanner h1 {
@@ -12,6 +12,9 @@ developer-banner h1, developer-contact h1, developer-project-descriptions h1, de
 	color: black;
 	text-transform: capitalize;
 	background-color: white;
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
 }
 
 #centerMenu {
@@ -217,21 +220,21 @@ footer, header, hgroup, menu, nav, section {
 .projectButton{
 	width: 90px;
 	height: 90px;
-	background-image: url(images/projects/seeIt.png);
+	background-image: url(../resources/images/projects/seeIt.png);
 }
 
 #weatherSwatch:hover, #eightBall:hover, #sunriseAlarm:hover, #xoxo:hover, #metrocity:hover, #zoneSix:hover{
-  -webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
   box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
-  transition: 0.5s all;
+  transition: 0.5s all;*/
 }
 
 
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
 
 #developerContact{
-	background-image: url(images/backgrounds/stardust.png);
+	background-image: url(../resources/images/backgrounds/stardust.png);
 	color: white;
 }
 
