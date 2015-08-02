@@ -171,18 +171,18 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .projectWrapper{
-	width: 970px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .projectBox{
-	width: 320px;
+	width: 500px;
 	height: 300px;
 	display: inline-block;
 	margin: 0;
 	background-repeat: no-repeat;
+	margin: 50px;
 }
 
 .projectBox h3{
