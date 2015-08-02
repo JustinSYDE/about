@@ -1,10 +1,43 @@
 
 developer-banner h1, developer-contact h1, developer-project-descriptions h1, developer-projects h1, developer-skills h1{
-	font-family: 'Amatic SC', Arial;
+	font-family: 'Century Gothic';
 }
 
 #developerBanner{
-	background: url(images/backgrounds/banner3BW.png);
+	background: url(images/backgrounds/mainBanner.png);
+}
+
+#developerBanner h1 {
+	font-size: 150px;
+	color: black;
+	text-transform: capitalize;
+	background-color: white;
+}
+
+#centerMenu {
+	width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#developerBanner a {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#developerBanner p {
+	letter-spacing: 2px;
+}
+
+#developerBanner {
+	color: white;
+	text-align: center;
 }
 
 #developerSkills{
@@ -12,16 +45,6 @@ developer-banner h1, developer-contact h1, developer-project-descriptions h1, de
 	padding-right: 0;
 	background-color: #FFF8EE;
 }
-
-#iAmDeveloper{
-	color: black;
-	/*background-color: #e3cca3;
-	opacity: 0.6;
-	-webkit-box-shadow: 18px 10px 200px 120px #e3cca3;
-	-moz-box-shadow: 18px 10px 200px 120px #e3cca3;
-	box-shadow: 18px 10px 200px 120px #e3cca3;*/
-}
-
 
 /*--------------------------------------------------------------- SKILLS -----------------------------------------------------------*/
 

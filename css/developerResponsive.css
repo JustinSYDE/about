@@ -9,11 +9,7 @@
 
 @media (max-width: 1400px){
 	#developerBanner{
-		background-image: url(images/backgrounds/bannerMidBW.png);
-	}
-
-	#iAmDeveloper{
-		margin-top: 70px;
+		background-image: url(images/backgrounds/mainBanner.png);
 	}
 }
 

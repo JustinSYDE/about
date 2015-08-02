@@ -88,7 +88,7 @@
 			function() {
 				app.config(['$routeProvider', function($routeProvider) {
 					$routeProvider
-						.when('/', {templateUrl: 'templates/developer.html', controller: "FrontCtrl"}).
+						.when('/', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
 						otherwise({redirectTo: '/'})
 
 						/*.when('/developer', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
