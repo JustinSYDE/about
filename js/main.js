@@ -88,14 +88,14 @@
 			function() {
 				app.config(['$routeProvider', function($routeProvider) {
 					$routeProvider
-						.when('/', {templateUrl: 'templates/front.html', controller: "FrontCtrl"}).
+						.when('/', {templateUrl: 'templates/developer.html', controller: "FrontCtrl"}).
 						otherwise({redirectTo: '/'})
 
-						.when('/developer', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
+						/*.when('/developer', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
 						otherwise({redirectTo: '/'})
 
 						.when('/bboy', {templateUrl: 'templates/bboy.html', controller: "BboyCtrl"}).
-						otherwise({redirectTo: '/'});
+						otherwise({redirectTo: '/'});*/
 				}]);
 
 				angular.bootstrap(document, ['app']);
