@@ -153,7 +153,6 @@
 
 #developerContact{
 	font-family: 'Century Gothic';
-	/*background-image: url(../resources/images/backgrounds/stardust.png);*/
 	background-color: black;
 	color: white;
 }
@@ -180,12 +179,6 @@
 	.projectDescription{
 		padding-left: 15%;
 		padding-right: 15%;
-	}
-}
-
-@media (max-width: 1400px){
-	#developerBanner{
-		/*background-image: url(../resources/images/backgrounds/mainBanner.png);*/
 	}
 }
 
