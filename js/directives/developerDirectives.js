@@ -16,13 +16,6 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
-	directivesFactory.directive('developerSkills', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/developer-skills.html"
-		};
-	});
-
 	directivesFactory.directive('developerProjects', function(){  
 		return{
 			restrict: 'E',
@@ -41,34 +34,6 @@ define(['directivesFactory'], function(directivesFactory){
 		return{
 			restrict: 'E',
 			templateUrl: "templates/developerPartials/projects/developer-weather-swatch.html"
-		};
-	});
-
-	directivesFactory.directive('developerEightBall', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-eight-ball.html"
-		};
-	});
-
-	directivesFactory.directive('developerMetrocity', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-metrocity.html"
-		};
-	});
-
-	directivesFactory.directive('developerXoxo', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-xoxo.html"
-		};
-	});
-
-	directivesFactory.directive('developerSunriseAlarm', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-sunrise-alarm.html"
 		};
 	});
 
