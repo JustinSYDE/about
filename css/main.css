@@ -72,7 +72,8 @@ footer{
   font-family: 'Century Gothic';
   padding: 15px 0 15px 0;
   text-align: center;
-  background: url(../resources/images/backgrounds/footer_lodyas.png);
+  /*background: url(../resources/images/backgrounds/footer_lodyas.png);*/
+  background-color: black;
 }
 
 footer p{
