@@ -222,8 +222,8 @@
 	}
 
 	.projectBox, .projectBox img{
-		width: 230px;
-		/*height: 216px;*/
+		max-width: 230px;
+		max-height: 216px;*/
 	}
 }
 
