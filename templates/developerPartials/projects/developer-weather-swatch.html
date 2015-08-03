@@ -1,49 +1,44 @@
 <div class="projectDescription">
-
 	<div class="buttonRow">
-		<a class="closeProjectButton shrink" ng-click="projectService.setProject(-2)">
-			<p>X</p>
-		</a>
+		<div class="closeProjectButton" ng-click="projectService.setProject(-2)">
+			<img class = "shrink" src="resources/images/closeButton.png">
+		</div>
 	</div>
 
 	<h1>Weather Swatch</h1>
-
-	<div class="projectPicture">
-		<img src="css/images/projects/weatherSwatchScreenshot.png">
-	</div>
 	
-	<div class="projectText">
-		<h3>What is Weather Swatch?</h3>
+	<div class = "projectContentWrapper">
+		<div class="projectPicture">
+			<img src="resources/images/projects/weatherSwatchPreview.png">
+		</div>
+		
+		<div class="projectText">
+			<h3>What is Weather Swatch?</h3>
 
-		<p>Need a little inspiration for the color scheme of your website?</p> 
-		<p>Weather Swatch generates a collection of color swatches based on the current weather conditions in a specific city.</p>
+			<p>Need a little inspiration for the color scheme of your website?</p> 
+			<p>Weather Swatch generates a collection of color swatches based on the current weather conditions in a specific city.</p>
 
-		<h3>Why weather + color swatches?</h3>
-		<p>The story goes as follows: when I first moved away from home, I was doing a freelance webdesign project for another company as well.</p>
-		<p>I couldn't think of a color scheme to use that seemed fitting.</p> 
-		<p>I thought about what the weather was probably like back home in Toronto (it was around Fall) and a Torontonian fall color scheme hit me!</p>
-		<p>Remember, inspiration can come from anywhere.</p>
-		<p>And if you're like me, the weather might help spring some inspiration on color schemes!</p>
+			<h3>Under the Hood</h3>
+			<p>This webapp was written using the BAR (Bootstrap + AngularJS + RequireJS) template I wrote which can be found here: https://github.com/JustinSYDE/BAR-Boilerplate.
 
-		<h3>Under the Hood</h3>
-		<p>This webapp was written using the BAR (Bootstrap + AngularJS + RequireJS) template I wrote which can be found here: https://github.com/JustinSYDE/BAR-Boilerplate.
+			Tools used include: </p>
 
-		Tools used include: </p>
+			<ul>
+				<li>AngularJS</li>
+				<li>AJAX</li>
+				<li>jQuery</li>
+				<li>Twitter Bootstrap</li>
+				<li>RequireJS</li>
+				<li>simpleWeather</li>
+			</ul>
 
-		<ul>
-			<li>AngularJS</li>
-			<li>AJAX</li>
-			<li>jQuery</li>
-			<li>Twitter Bootstrap</li>
-			<li>RequireJS</li>
-			<li>simpleWeather</li>
-		</ul>
-
-		<p>*Logo was designed and smithed personally.</p>
+			<p>*Logo was designed and smithed personally.</p>
+		</div>
 	</div>
 
 	<div class="buttonRow bottomRow">
-		<a class="projectButton shrink" href="http://justinsyde.github.io/WeatherSwatch/#/">
+		<a class="projectButton shrink" href="https://itunes.apple.com/us/app/dont-rush/id1011626046?ls=1&mt=8">
+			<img src="resources/images/projects/seeIt.png">
 		</a>
 	</div>
 </div>

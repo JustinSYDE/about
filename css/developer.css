@@ -147,11 +147,12 @@
 	text-align: center;
 }
 
+.projectPicture img {
+	max-width: 400px;
+}
+
 .projectText p {
 	font-weight: normal;
-}
-.projectPicture img{
-	padding-bottom: 200px;
 }
 
 .projectPictureTall img{
