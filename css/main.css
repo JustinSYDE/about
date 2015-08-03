@@ -36,7 +36,6 @@ h3, h2{
 }
 
 .buttonRow{
-	padding: 30px 0 ;
 	width: 100%;
 	height: 90px;
 	text-align: center;
@@ -61,19 +60,6 @@ footer p{
   padding: 0 0 5px 0;
   margin: 0;
 }
-
-.socialButton img:hover, .projectButton:hover{
-  border: 4px solid #f2f2f2;
-  border-radius: 50px;
-}
-
-.projectButton:hover{
-  font-size: 13px;
-  color: white;
-  margin-top: 5px;
-  padding: 27px 18px;
-}
-
 
 /*----------------------------------------- MEDIA QUERIES ---------------------------------------*/
 
