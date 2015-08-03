@@ -284,7 +284,7 @@
 	}
 
 	.projectBox, .projectBox img{
-		width: 180px;
+		max-width: 180px;
 		/*height: 169px;*/
 	}
 }
