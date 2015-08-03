@@ -134,7 +134,6 @@
 
 .projectDescription{
 	padding: 30px 25%;
-	width: 100%;
 	background-color: rgba(176, 218, 212, 0.48);
 }
 
@@ -166,6 +165,10 @@
 	background-image: url(../resources/images/projects/seeIt.png);
 }
 
+#dontRushGift {
+	width: 300px;
+}
+
 #weatherSwatch:hover, #eightBall:hover, #sunriseAlarm:hover, #xoxo:hover, #metrocity:hover, #zoneSix:hover{
   /*-webkit-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px -183px 0px -170px rgba(0,0,0,0.75);
@@ -173,7 +176,9 @@
   transition: 0.5s all;*/
 }
 
-
+.closeProjectButton {
+	
+}
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
 
 #developerContact{
