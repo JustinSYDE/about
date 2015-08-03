@@ -90,7 +90,6 @@
 }
 
 #developerBanner p {
-	font-family: 'Century Gothic';
 	letter-spacing: 2px;
 }
 
@@ -128,17 +127,12 @@
 	margin: 50px;
 }
 
-.projectBox h3{
-	padding-top: 40%;
-}
-
 .projectDescription{
 	padding: 50px 25%;
 	background-color: rgba(176, 218, 212, 0.48);
 }
 
-.projectText, .projectPicture{
-	font-family: 'Century Gothic';
+.projectText, .projectPicture {
 	display: inline-block;
 	width: 49%;
 }
@@ -193,7 +187,6 @@
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
 
 #developerContact{
-	font-family: 'Century Gothic';
 	background-color: black;
 	color: white;
 }
@@ -230,7 +223,7 @@
 
 	.projectBox, .projectBox img{
 		width: 230px;
-		height: 216px;
+		/*height: 216px;*/
 	}
 }
 
@@ -292,7 +285,7 @@
 
 	.projectBox, .projectBox img{
 		width: 180px;
-		height: 169px;
+		/*height: 169px;*/
 	}
 }
 
@@ -309,7 +302,7 @@
 
 	.projectBox, .projectBox img{
 		width: 140px;
-		height: 131px;
+		/*height: 131px;*/
 	}
 
 	.socialMediaRow{
