@@ -143,6 +143,10 @@
 	width: 49%;
 }
 
+.projectPicture {
+	text-align: center;
+}
+
 .projectText p {
 	font-weight: normal;
 }
@@ -152,7 +156,6 @@
 
 .projectPictureTall img{
 	padding-bottom: 0;
-	padding-left: 100px;
 }
 
 .projectDescription h1 {
@@ -172,7 +175,7 @@
 	margin: 50px 0;
 }
 
-#dontRushGift {
+#dontRushGif {
 	width: 300px;
 }
 
