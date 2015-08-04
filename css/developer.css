@@ -193,8 +193,8 @@
 }
 
 .socialMediaRow{
-	height: 90px;
-	width: 343px;
+	max-height: 90px;
+	max-width: 343px;
 	margin: auto;
 }
 
@@ -262,7 +262,7 @@
 		font-size: 80px;
 		width: 215px;
 	}
-	
+
 	.projectWrapper{
 		width: 500px;
 	}
@@ -331,8 +331,13 @@
 	}
 
 	.socialMediaRow img{
-		/*height: 70px;
-		width: 70px;*/
+		height: 70px;
+		width: 70px;
+	}
+
+	.socialBox {
+		height: 70px;
+		width: 70px;
 	}
 
 	.closeProjectButton{
