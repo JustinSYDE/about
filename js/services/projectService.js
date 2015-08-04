@@ -21,22 +21,10 @@ define(["servicesFactory"], function(servicesFactory) {
 		      }
 		    },
 
-		    setJourney: function(setProject, div){
-		    	projectService.project = setProject;
-		    },
-
 		    scrollTo: function(section){
 		    	$('html, body').animate({
 		    		scrollTop: $(section).offset().top
 		    	}, 1500);
-		    },
-
-		    isHovered: function(hoverProject){
-		    	return projectService.projectHover === hoverProject;
-		    },
-
-		    setHoveredProject: function(setHoverProject){
-		    	projectService.projectHover = setHoverProject;
 		    }
 		};
 		return projectService;
