@@ -45,7 +45,7 @@
 
 /* bounce */
 .bounce {
-  position:absolute;
+  position: relative;
   -webkit-animation:bounce 1s infinite;
 }
 
