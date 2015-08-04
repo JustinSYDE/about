@@ -66,6 +66,7 @@
 	font-size: 150px;
 	display: inline;
 	color: black;
+	font-weight: normal;
 	text-transform: capitalize;
 	background-color: white;
 	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
@@ -246,7 +247,7 @@
 	.projectText {
 		margin-top: 50px;
 	}
-	
+
 	.projectText, .projectPicture {
 		width: 100%;
 		text-align: center;
