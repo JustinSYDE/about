@@ -12,12 +12,12 @@ define(["servicesFactory"], function(servicesFactory) {
 		    setProject: function(setProject) {
 		      projectService.project = setProject;
 
-		      if (document.getElementById("projectDescription") != null){
+		      if ((projectService.project >= 0) && document.getElementById("projectDescription") != null){
 		      	projectService.scrollTo('#projectDescription');
 		      }
 		      
 		      else{
-		      	projectService.scrollTo('#crewDescription');
+		      	projectService.scrollTo('#developerProjects');
 		      }
 		    },
 
