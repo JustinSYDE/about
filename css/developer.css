@@ -172,7 +172,7 @@
 }
 
 #dontRushGif {
-	width: 300px;
+	max-width: 300px;
 }
 
 #weatherSwatch:hover, #eightBall:hover, #sunriseAlarm:hover, #xoxo:hover, #metrocity:hover, #zoneSix:hover{
@@ -243,7 +243,11 @@
 }
 
 @media (max-width: 820px) {
-	.projectText, .projectPicture{
+	.projectText {
+		margin-top: 50px;
+	}
+	
+	.projectText, .projectPicture {
 		width: 100%;
 		text-align: center;
 	}
@@ -271,6 +275,10 @@
 
 	.projectWrapper{
 		width: 500px;
+	}
+
+	#dontRushGif {
+		max-width: 150px;
 	}
 }
 
