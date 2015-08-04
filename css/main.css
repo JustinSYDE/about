@@ -21,6 +21,11 @@ h1{
 	margin: 0;
 	text-align: center;
 	font-weight: bold;
+	font-size: 70px;
+}
+
+.sectionHeader {
+	margin-bottom: 75px;
 }
 
 .banner{
@@ -68,6 +73,10 @@ footer p{
 
 	.wrapper h1 {
 		font-size: 36px;
+	}
+
+	.sectionHeader {
+		margin-bottom: 0px;
 	}
 }
 
