@@ -64,6 +64,7 @@
 
 #developerBanner h1 {
 	font-size: 150px;
+	display: inline;
 	color: black;
 	text-transform: capitalize;
 	background-color: white;
@@ -73,7 +74,7 @@
 }
 
 #centerMenu {
-	width: 400px;
+	max-width: 400px;
     height: 200px;
     position: absolute;
     top: 0;
@@ -257,6 +258,11 @@
 }
 
 @media (max-width: 790px){
+	#developerBanner h1 {
+		font-size: 80px;
+		width: 215px;
+	}
+	
 	.projectWrapper{
 		width: 500px;
 	}
@@ -278,7 +284,6 @@
 }
 
 @media (max-width: 550px){
-
 	.projectWrapper{
 		width: 365px;
 	}
@@ -296,12 +301,13 @@
 }
 
 @media (max-width: 400px){
+
 	.projectWrapper{
 		width: 300px;
 	}
 
 	.projectBox, .projectBox img{
-		width: 140px;
+		max-width: 140px;
 		/*height: 131px;*/
 	}
 
