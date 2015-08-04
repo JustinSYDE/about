@@ -51,6 +51,20 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerSmartTrek', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-smart-trek.html"
+		};
+	});
+
+	directivesFactory.directive('developerNotebook', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-notebook.html"
+		};
+	});
+
 	directivesFactory.directive('developerContact', function(){  
 		return{
 			restrict: 'E',
