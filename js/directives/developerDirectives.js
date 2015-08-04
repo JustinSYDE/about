@@ -72,6 +72,13 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerWorkExperience', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/developer-work-experience.html"
+		};
+	});
+
 	directivesFactory.directive('footerJustin', function(){  
 		return{
 			restrict: 'E',

@@ -186,6 +186,34 @@
 .closeProjectButton {
 	
 }
+
+.projectBox p {
+	color: #aaaaaa;
+}
+
+/*------------------------------------------------------------------- REFERENCES ----------------------------------------------------------------*/
+
+.textWrapper {
+	display: inline-table;
+	width: 32%;
+}
+
+.referenceText {
+	text-align: left;
+	margin: 0 auto 16px auto; 
+	font-style: italic;
+}
+
+.referenceText, .reference {
+	width: 80%;
+}
+
+.reference {
+	text-align: right;
+	margin: auto;
+	color: #aaaaaa;
+}
+
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
 
 #developerContact{
@@ -231,7 +259,7 @@
 
 	.projectBox, .projectBox img{
 		max-width: 230px;
-		max-height: 216px;*/
+		max-height: 216px;
 	}
 }
 
@@ -276,10 +304,21 @@
 
 	.projectWrapper{
 		width: 500px;
+		text-align: center;
 	}
 
 	#dontRushGif {
 		max-width: 150px;
+	}
+
+	.textWrapper {
+		width: 80%;
+		margin: 30px;
+	}
+
+	.referenceText {
+		text-align: center;
+        margin: 0 auto 16px auto;
 	}
 }
 

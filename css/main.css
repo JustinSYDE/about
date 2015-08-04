@@ -78,6 +78,10 @@ footer p{
 	.sectionHeader {
 		margin-bottom: 0px;
 	}
+
+	#referencesHeader {
+		margin-bottom: 75px;
+	}
 }
 
 @media (max-width: 450px) {
