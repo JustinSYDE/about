@@ -16,13 +16,6 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
-	directivesFactory.directive('developerSkills', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/developer-skills.html"
-		};
-	});
-
 	directivesFactory.directive('developerProjects', function(){  
 		return{
 			restrict: 'E',
@@ -44,34 +37,6 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
-	directivesFactory.directive('developerEightBall', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-eight-ball.html"
-		};
-	});
-
-	directivesFactory.directive('developerMetrocity', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-metrocity.html"
-		};
-	});
-
-	directivesFactory.directive('developerXoxo', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-xoxo.html"
-		};
-	});
-
-	directivesFactory.directive('developerSunriseAlarm', function(){  
-		return{
-			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-sunrise-alarm.html"
-		};
-	});
-
 	directivesFactory.directive('developerZoneSix', function(){  
 		return{
 			restrict: 'E',
@@ -86,10 +51,31 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerSmartTrek', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-smart-trek.html"
+		};
+	});
+
+	directivesFactory.directive('developerNotebook', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-notebook.html"
+		};
+	});
+
 	directivesFactory.directive('developerContact', function(){  
 		return{
 			restrict: 'E',
 			templateUrl: "templates/developerPartials/developer-contact.html"
+		};
+	});
+
+	directivesFactory.directive('developerWorkExperience', function(){  
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/developer-work-experience.html"
 		};
 	});
 

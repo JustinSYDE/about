@@ -13,10 +13,7 @@
 		paths: {
 			'angular': 'libs/angular-min-1.2.24',
 			'angularRoute': 'libs/angular-route-min-1.2.24',
-			'bootstrap': 'libs/modernizr-2.6.2-respond-1.1.0.min',
 			'jquery': 'libs/jquery',
-			'bootstrapJS': 'libs/bootstrap.min',
-			'async': 'libs/async'
 		},
 		shim: {
 			'angular': {
@@ -27,12 +24,6 @@
 			},
 			'jquery': {
 				exports: '$'
-			},
-			'bootstrapJS': {
-				deps: ['jquery']
-			},
-			'verticalTimeline': {
-				deps: ['jquery']
 			}
 		}
 	});
@@ -50,12 +41,6 @@
 		return angular.module('app.directives', []);
 	});
 
-	//use plugins as if they were at baseUrl
-	define('gmaps', ['async!http://maps.google.com/maps/api/js?sensor=false'], function(){
-	        //all dependencies are loaded (including gmaps and other google apis)
-		return window.google.maps; 
-	});
-
 	//DEFINE THE MOTHER 'APP' MODULE WHICH REQUIRES ALL THE OTHER MAIN MODULES TO BE INITIALIZED WITH IT
 	define('app', [
 		'angular',
@@ -71,31 +56,17 @@
 
 	//BOOTSTRAP ANGULARJS TO THE MOTHER 'APP'
 	require(['app', 
-		'jquery', 
-		'bootstrap', 
-		'bootstrapJS',
-		'gmaps'], 
+		'jquery'], 
 		function(app, 
-			jquery, 
-			bootstrap, 
-			bootstrapJS,
-			gmaps) {
+			jquery) {
 		require([
 				'controllers/developerCtrl',
-				'controllers/bboyCtrl',
-				'controllers/frontCtrl'
 			],
 			function() {
 				app.config(['$routeProvider', function($routeProvider) {
 					$routeProvider
-						.when('/', {templateUrl: 'templates/front.html', controller: "FrontCtrl"}).
+						.when('/', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
 						otherwise({redirectTo: '/'})
-
-						.when('/developer', {templateUrl: 'templates/developer.html', controller: "DeveloperCtrl"}).
-						otherwise({redirectTo: '/'})
-
-						.when('/bboy', {templateUrl: 'templates/bboy.html', controller: "BboyCtrl"}).
-						otherwise({redirectTo: '/'});
 				}]);
 
 				angular.bootstrap(document, ['app']);
