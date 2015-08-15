@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic);
+
 /*------------------------------------------ GLOBAL -----------------------------------*/
 
 html, body, #ng-view { 
@@ -6,7 +8,7 @@ html, body, #ng-view {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Century Gothic';
+	font-family: 'Century Gothic', 'Lato', sans-serif;
 }
 
 .wrapper{
