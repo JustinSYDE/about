@@ -2,7 +2,7 @@
 
 /*------------------------------------------ GLOBAL -----------------------------------*/
 
-html, body, #ng-view { 
+html, body, #ng-view {
 	text-align: left;
 	height: 100%;
 	width: 100%;
@@ -57,7 +57,7 @@ h3, h2{
 	font-weight: bold;
 }
 
-footer{ 
+footer{
   padding: 15px 0 15px 0;
   text-align: center;
   background-color: black;
@@ -132,7 +132,7 @@ footer p{
 .sectionHeaderWrapper {
 	margin-bottom: 75px;
 }
- 
+
 /*-------------------------------------------- BANNER ----------------------------------------*/
 #developerBanner{
 	background: url(../resources/images/backgrounds/mainBanner.png);
@@ -213,6 +213,7 @@ footer p{
 .projectText, .projectPicture {
 	display: inline-block;
 	width: 49%;
+  vertical-align: middle;
 }
 
 .projectPicture {
@@ -273,7 +274,7 @@ footer p{
 
 .referenceText {
 	text-align: left;
-	margin: 0 auto 16px auto; 
+	margin: 0 auto 16px auto;
 	font-style: italic;
 }
 
