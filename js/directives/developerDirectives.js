@@ -72,6 +72,13 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerLeaderboard', function(){
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-leaderboard.html"
+		};
+	});
+
 	directivesFactory.directive('developerContact', function(){
 		return{
 			restrict: 'E',
