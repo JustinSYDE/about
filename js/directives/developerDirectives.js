@@ -79,6 +79,13 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerNeo4j', function(){
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-neo4j.html"
+		};
+	});
+
 	directivesFactory.directive('developerContact', function(){
 		return{
 			restrict: 'E',
