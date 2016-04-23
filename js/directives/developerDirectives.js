@@ -86,6 +86,13 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerMerchantPortal', function(){
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-merchant-portal.html"
+		};
+	});
+
 	directivesFactory.directive('developerContact', function(){
 		return{
 			restrict: 'E',
