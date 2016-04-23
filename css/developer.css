@@ -144,11 +144,11 @@ footer p{
 	display: inline;
 	color: black;
 	font-weight: normal;
-	text-transform: capitalize;
 	background-color: white;
 	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
+  padding: 0 6%;
 }
 
 #centerMenu {
@@ -166,10 +166,19 @@ footer p{
 	color: white;
 	font-weight: bold;
 	font-size: 16px;
+  text-decoration: none;
+  border-bottom: 1px dashed white;
+}
+
+#developerBanner a:hover {
+  border-bottom: 1px solid white;
 }
 
 #developerBanner p {
-	letter-spacing: 2px;
+  text-align: justify;
+  background-color: black;
+  opacity: 0.8;
+  padding: 5%;
 }
 
 #developerBanner {
@@ -232,8 +241,12 @@ footer p{
 	margin-top: 50px;
 }
 
-.projectDescription h3, .projectDescription p{
+.projectDescription h3{
 	text-align: left;
+}
+
+.projectDescription p {
+  text-align: justify;
 }
 
 .projectButton {
@@ -269,7 +282,7 @@ footer p{
 }
 
 .referenceText {
-	text-align: left;
+	text-align: justify;
 	margin: 0 auto 16px auto;
 	font-style: italic;
 }
