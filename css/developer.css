@@ -286,6 +286,10 @@ footer p{
 	font-style: italic;
 }
 
+.referenceText, .reference {
+	width: 80%;
+}
+
 .reference {
 	text-align: right;
 	margin: auto;
@@ -339,6 +343,10 @@ footer p{
 	.wrapper {
 		padding: 75px 10%;
 	}
+
+  #developerWorkExperience {
+    padding: 75px 15%;
+  }
 
 	.wrapper h1 {
 		font-size: 36px;
@@ -409,13 +417,17 @@ footer p{
 	}
 
 	.textWrapper {
-		width: 80%;
-		margin: 30px;
+		width: 100%;
+		margin: 30px 0;
 	}
 
 	.referenceText {
-        margin: 0 auto 16px auto;
+    margin: 0 auto 16px auto;
 	}
+
+  .referenceText, .reference {
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) {
