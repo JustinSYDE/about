@@ -215,7 +215,7 @@ footer p{
 
 .projectDescription {
 	padding: 50px 25%;
-	background-color: rgba(176, 218, 212, 0.48);
+	background-color: #e8f6f1;
 }
 
 .projectText, .projectPicture {
@@ -268,7 +268,7 @@ footer p{
 /*------------------------------------------------------------------- REFERENCES ----------------------------------------------------------------*/
 
 #developerWorkExperience {
-	background-color: #FFF8EE;
+	background-color: #fffbf6;
 }
 
 .referencesWrapper {
@@ -284,10 +284,6 @@ footer p{
 	text-align: justify;
 	margin: 0 auto 16px auto;
 	font-style: italic;
-}
-
-.referenceText, .reference {
-	width: 80%;
 }
 
 .reference {
