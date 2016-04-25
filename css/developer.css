@@ -441,6 +441,10 @@ footer p{
   .nextSectionIndicatorRow {
     padding: 0;
   }
+
+  .nextSectionIndicatorRow img {
+    width: 10px;
+  }
 }
 
 @media (max-width: 500px){
