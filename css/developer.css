@@ -163,18 +163,17 @@ footer p{
 }
 
 #developerBanner a {
-	color: white;
+	color: #67a2d4;
 	font-weight: bold;
 	font-size: 16px;
   text-decoration: none;
-  border-bottom: 1px dashed white;
 }
 
 #developerBanner a:hover {
-  border-bottom: 1px solid white;
+  color: #94bde0;
 }
 
-#developerBanner p {
+#meBlurb {
   text-align: justify;
   background-color: rgba(0,0,0,0.8);
   padding: 5%;
@@ -404,7 +403,7 @@ footer p{
 @media (max-width: 790px){
 	#developerBanner h1 {
 		font-size: 80px;
-		width: 215px;
+		padding: 0 105px
 	}
 
 	.projectWrapper{
@@ -430,7 +429,18 @@ footer p{
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 550px){
+  .projectWrapper{
+    width: 365px;
+  }
+
+  .projectBox, .projectBox img{
+    max-width: 180px;
+  }
+
+  .nextSectionIndicatorRow {
+    padding: 10px 0;
+  }
 }
 
 @media (max-width: 500px){
@@ -442,16 +452,6 @@ footer p{
 	#developerProjects h1{
 		padding-left: 10%;
 		padding-right: 10%;
-	}
-}
-
-@media (max-width: 550px){
-	.projectWrapper{
-		width: 365px;
-	}
-
-	.projectBox, .projectBox img{
-		max-width: 180px;
 	}
 }
 
