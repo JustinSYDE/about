@@ -86,6 +86,13 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
+	directivesFactory.directive('developerSaikoLogo', function(){
+		return{
+			restrict: 'E',
+			templateUrl: "templates/developerPartials/projects/developer-saiko-logo.html"
+		};
+	});
+
 	directivesFactory.directive('developerMerchantPortal', function(){
 		return{
 			restrict: 'E',
