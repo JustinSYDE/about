@@ -163,14 +163,14 @@ footer p{
 }
 
 #developerBanner a {
-	color: #e67e22;
+	color: #fffbf6;
 	font-weight: bold;
 	font-size: 16px;
   text-decoration: none;
 }
 
 #developerBanner a:hover {
-  color: #d35400;
+  color: white;
 }
 
 #meBlurb {
