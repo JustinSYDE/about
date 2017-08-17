@@ -2,6 +2,8 @@
 
 /*------------------------------------------ GLOBAL -----------------------------------*/
 
+@LIGHT_BLACK: rgba(0, 0, 0, 0.8);
+
 html, body, #ng-view {
   text-align: left;
   height: 100%;
@@ -135,20 +137,18 @@ footer p{
 
 /*-------------------------------------------- BANNER ----------------------------------------*/
 #developerBanner{
-  background: url(../resources/images/backgrounds/mainBanner.png);
+  background-color: @LIGHT_BLACK;
   position: relative;
 }
 
 #developerBanner h1 {
-  font-size: 150px;
+  font-size: 125px;
   display: inline;
-  color: black;
+  color: rgba(0,0,0,0.8);
   font-weight: normal;
   background-color: white;
-  -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
-  padding: 0 6%;
+  padding: 4% 13%;
+  border-radius: 100px;
 }
 
 #centerMenu {
@@ -174,8 +174,7 @@ footer p{
 }
 
 #meBlurb {
-  text-align: justify;
-  background-color: rgba(0,0,0,0.8);
+  text-align: center;
   padding: 5%;
 }
 
@@ -244,7 +243,7 @@ footer p{
 }
 
 .projectDescription p {
-  text-align: justify;
+  text-align: left;
 }
 
 .projectButton {
@@ -280,7 +279,7 @@ footer p{
 }
 
 .referenceText {
-  text-align: justify;
+  text-align: left;
   margin: 0 auto 16px auto;
   font-style: italic;
 }
@@ -303,7 +302,9 @@ footer p{
 /*------------------------------------------------------------------- CONTACT ME -----------------------------------------------------------------*/
 
 #developerContact{
-  background-color: black;
+  background: url('https://media.giphy.com/media/jQasuq16vkzja/giphy.gif') no-repeat center;
+  background-size: cover;
+  position: relative;
   color: white;
 }
 
