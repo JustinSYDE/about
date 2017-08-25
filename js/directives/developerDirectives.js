@@ -37,10 +37,10 @@ define(['directivesFactory'], function(directivesFactory){
 		};
 	});
 
-	directivesFactory.directive('developerZoneSix', function(){
+	directivesFactory.directive('developerAthos', function(){
 		return{
 			restrict: 'E',
-			templateUrl: "templates/developerPartials/projects/developer-zone-six.html"
+			templateUrl: "templates/developerPartials/projects/developer-athos.html"
 		};
 	});
 
